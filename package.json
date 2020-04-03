@@ -1,0 +1,33 @@
+{
+  "name": "mayks-web",
+  "version": "1.0.0",
+  "description": "Mayks&#39;s Website",
+  "author": "Michael Michaelov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.6",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "nuxt": "^2.12.1",
+    "nuxt-compress": "^1.1.0",
+    "storyblok-nuxt": "^1.2.0",
+    "uniq": "^1.0.1",
+    "vue-agile": "^1.0.11"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/robots": "^2.4.2",
+    "@nuxtjs/sitemap": "^2.1.0",
+    "collect.js": "^4.20.3",
+    "dayjs": "^1.8.23",
+    "highlight.js": "^9.18.1",
+    "marked": "^0.8.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  }
+}

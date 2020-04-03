@@ -1,0 +1,152 @@
+$bg-color: #212121
+$secondary-color: #262626
+$primary-color: #ff8c05
+$accent-color: #d61a1a
+$white-color: #eeeeee
+$carousel-el-color: #cccccc
+$code-bg-color: #282a37
+$code-font-color: #44be0b
+
+
+// NeoMorphisem
+$boxshadow-dark: darken($bg-color, 5)
+$boxshadow-light: lighten($bg-color, 5)
+
+
+$font-normal: 'Rubik', sans-serif
+$font-heading: 'Noto Serif', serif
+
+=transform
+    transform: scale(1.05) translateY(-0.5rem)
+=transition
+    transition: all .5s ease-out
+
+//MEDIA QUERY MANAGER
+// 0   - 576px     :   xs
+// 0   - 600px     :   Phone
+// 600 - 900px     :   Tablet portrait
+// 900 - 1200px    :   Tablet landscape
+// [1200 1800]     :   Normal style
+// 1800 px +       :   Big desktop
+
+
+
+    
+/* ===== Usage ===== */
+// div {
+//   // You can pass width && height
+//   +box(200px, 300px);
+//   /* or just pass width and the height
+//      will default to the width value */
+//   +box(200px);
+// }
+
+=box($width, $height: $width)
+    width: $width
+    height: $height
+
+// ---------- FLEX ---------------
+=flex-column 
+    display: flex
+    flex-direction: column
+
+=flex-center 
+    display: flex
+    align-items: center
+    justify-content: center
+
+
+=flex-center-column 
+    +flex-center
+    flex-direction: column
+
+=flex-center-vert 
+  display: flex
+  align-items: center
+
+=flex-center-horiz 
+  display: flex
+  justify-content: center
+
+
+=neomorph
+    box-shadow: 3px 3px 3px $boxshadow-dark, -3px -3px 3px $boxshadow-light
+    border-radius: 10px
+
+=neomorph-in
+    box-shadow: inset 3px 3px 3px -1px $boxshadow-dark, inset -3px -3px 3px -1px $boxshadow-light
+    border-radius: 10px
+
+=neomorph-box 
+    box-shadow: 3px 3px 3px $boxshadow-dark, -3px -3px 3px $boxshadow-light
+    border-radius: 10px
+    padding: 18px
+    +transition
+    &:hover
+        box-shadow: inset 3px 3px 3px -1px $boxshadow-dark, inset -3px -3px 3px -1px $boxshadow-light 
+        color: $primary-color
+
+=bg-effect
+    background: -webkit-linear-gradient(right, $accent-color, $primary-color)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+=responsive
+    max-width: 100%
+    height: auto
+
+=mb3 
+    margin-bottom: 3rem
+
+
+//MEDIA QUERY MANAGER
+// 0   < 576px     :   xs
+//     < 768px     :   phone
+//     < 992px     :   tablet
+//     < 1200px    :   md
+//     < 1800px    :   lg
+
+
+// ПРЕВРЪЩАНЕ НА px В em
+// 1em = 16px
+// 600 / 16 = 37.5em
+
+=breakPoint($breakpoint)
+    @if $breakpoint == xs
+        @media (min-width: 36em) //576px
+            @content
+    @if $breakpoint == phone
+        @media (min-width: 48em) //768px
+            @content
+    @if $breakpoint == tablet
+        @media (min-width: 62em) //992px
+            @content
+    @if $breakpoint == md
+        @media (min-width: 75em) //1200px
+            @content
+    @if $breakpoint == lg
+        @media (min-width: 112.5em) //1800px
+            @content
+
+=break($breakpoint)
+    @if $breakpoint == xxs
+        @media (max-width: 23em) //368px
+            @content
+    @if $breakpoint == xs
+        @media (max-width: 28em) //448px
+            @content
+    @if $breakpoint == md
+        @media (max-width: 36em) //576px
+            @content
+    @if $breakpoint == phone
+        @media (max-width: 48em) //768px
+            @content
+    @if $breakpoint == tablet
+        @media (max-width: 62em) //992px
+            @content
+    @if $breakpoint == lg
+        @media (max-width: 75em) //1200px
+            @content
+    @if $breakpoint == xlg
+        @media (max-width: 112.5em) //1800px
+            @content
