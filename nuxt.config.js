@@ -1,6 +1,6 @@
 require('dotenv').config()
-import axios from 'axios'
-const collect = require('collect.js')
+// import axios from 'axios'
+// const collect = require('collect.js')
 
 /*
 ** Function dynamicRoutes() return the Dynamic Routes and pass them to Generate configuration 
@@ -249,8 +249,8 @@ export default {
     // analyze: true,
   },
   
-  transition: {
-    name: 'fade',
-    mode: 'out-in'
-  },
+  // transition: {
+  //   name: 'fade',
+  //   mode: 'out-in'
+  // },
 }

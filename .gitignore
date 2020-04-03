@@ -90,3 +90,5 @@ sw.*
 *.swp
 /temp.js
 /.env
+/.nuxt
+/pages/story
