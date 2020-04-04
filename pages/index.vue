@@ -38,28 +38,25 @@ export default {
     Contact,
   },
 
-  // data() {
-  //   return {
-  //     posts: []
-  //   }
-  // },
+  asyncData(context) {
 
- asyncData (context) {
+    let version = context.query._storyblok || context.isDev ? 'draft' : 'published'
 
-        let version = context.query._storyblok || context.isDev ? 'draft' : 'published'
-        // Load the JSON from the API
-        return context.app.$storyapi.get('cdn/stories', {
-            version: version,
-            starts_with: 'blog/',
-            resolve_relations: 'category',
-            per_page: 2
-        }).then((res) => { 
-            return res.data
-        }).catch((res) => {
-            context.error({ statusCode: res.response.status, message: res.response.data })
-        })
-    }
-  
+    return context.app.$storyapi.get('cdn/stories', {
+      version: version,
+      starts_with: 'blog/',
+      resolve_relations: 'category',
+      per_page: 2
+    }).then((res) => {
+      return res.data
+    }).catch((res) => {
+      context.error({
+        statusCode: res.response.status,
+        message: res.response.data
+      })
+    })
+  }
+
 }
 </script>
 

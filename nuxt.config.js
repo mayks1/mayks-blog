@@ -1,35 +1,7 @@
-require('dotenv').config()
-// import axios from 'axios'
-// const collect = require('collect.js')
 
-/*
-** Function dynamicRoutes() return the Dynamic Routes and pass them to Generate configuration 
-*/
-// const dynamicRoutes = async () => {
+require('./data/meta.js')
+// require('dotenv').config()
 
-//   // Fetching posts
-//   const resForPosts         = await axios.get(process.env.API_POSTS)
-//   const resForCategories    = await axios.get(process.env.API_CATEGORIES)
-
-//   const routesForPosts      = resForPosts.data.entries.map(post => {
-//     return {
-//      route: `/blog/${post.title_slug}`,
-//      payload: post
-//     }
-//   })
-
-//   const rotesForCategories  = resForCategories.data.entries.map(category => {
-//     return {
-//       route: `/category/${category.name}`,
-//       payload: category
-//     }
-//   })
-
-//   const routes = routesForPosts.concat(rotesForCategories)
-
-//   return routes
-
-// }
 
 module.exports = {
 
@@ -41,21 +13,21 @@ module.exports = {
     htmlAttrs: {
       lang: 'bg'
     },
-    title: process.env.SITE_TITLE,
+    title: info.siteTitle,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: "google-site-verification", content: "3dcMi8kx8atA-j5Ydfbbq5S54BC0KTtwhCNRIPrKqh8"},
-      { hid: "author", name: "author", content: process.env.URL},
-      { hid: "publisher", name: "publisher", content: process.env.URL},
-      { hid: "apple-mobile-web-app-title", name: "apple-mobile-web-app-title", content: process.env.SITE_TITLE},
-      { hid: 'description', name: 'description', content: process.env.SITE_DESCRIPTION || '' },
+      { name: "google-site-verification", content: info.GOOGLE_SITE_VERIFICATION},
+      { hid: "author", name: "author", content: info.URL},
+      { hid: "publisher", name: "publisher", content: info.URL},
+      { hid: "apple-mobile-web-app-title", name: "apple-mobile-web-app-title", content: info.siteTitle},
+      { hid: 'description', name: 'description', content: info.siteDescription || '' },
       // og - properties
       { hid: 'og:site_name', content: "MAYKS.DEV"},
-      { hid: 'og:title', name: 'og:title', content: process.env.SITE_TITLE || ''},
-      { hid: 'og:description', name: 'og:description', content: process.env.SITE_DESCRIPTION || ''},
+      { hid: 'og:title', name: 'og:title', content: info.siteTitle || ''},
+      { hid: 'og:description', name: 'og:description', content: info.siteDescription || ''},
       { hid: "og:type", name: "og:type", content: "website"},
-      { hid: "og:url", name: "og:url", content: process.env.URL},
+      { hid: "og:url", name: "og:url", content: info.URL},
       { hid: "og:locale", name: "og:locale", content: "bg_BG"},
       //  ------------------  og - IMAGE properties 1200 px--------------------------------
       { hid: 'og:image', name: 'og:image', content: '/mayks-logo-og.jpg'},
@@ -75,8 +47,8 @@ module.exports = {
       // { hid: "twitter:card", name: "twitter:card", content: "summary_large_image"},
       // { hid: "twitter:site", name: "twitter:site", content: "@mayks1"},
       // { hid: "twitter:creator", name: "twitter:creator", content: "@mayks1"},
-      { hid: "twitter:title", name: "twitter:title", content: "Mayks - Изграждане на Уеб Страници"},
-      { hid: "twitter:description", name: "twitter:description", content: "Идивидуални уеб системи по задание на клиента. Изграждане на статични и динамични страници."},
+      { hid: "twitter:title", name: "twitter:title", content: info.siteTitle},
+      { hid: "twitter:description", name: "twitter:description", content: info.siteDescription},
       { hid: "twitter:image", name: "twitter:image", content: "/mayks-logo-twitter.jpg"}
       // ----------------------------  FACEBOOK --------------------------------------
       // {property: 'fb:app_id', content: '12873892173892'},
@@ -140,7 +112,7 @@ module.exports = {
     [
       'storyblok-nuxt',
       {
-        accessToken: process.env.STORYBLOK_API,
+        accessToken: '1fFtXg88AU6FzSVvlrc14Att',
         cacheProvider: 'memory'
       }
     ],
@@ -177,7 +149,7 @@ module.exports = {
   },
 
   env: {
-    contactUrl: `${process.env.BASE_URL}/api/forms/submit/contact?token=${process.env.FORMS_TOKEN}`
+    contactUrl: `https://api.mayks.dev/api/forms/submit/contact?token=${info.FORMS_TOKEN}`
   },
 
   /*

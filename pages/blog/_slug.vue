@@ -32,7 +32,7 @@
 </template> 
 
 <script>
-
+import '~/data/meta.js'
 import marked from 'marked'
 import SideBar from '~/components/sections/SideBar'
 
@@ -46,25 +46,25 @@ export default {
     return {
       title: this.story.content.title,
       meta: [
-        { hid: 'description', name: 'description', content: process.env.SITE_DESCRIPTION },
-        { hid: "og:url", name: "og:url", content: process.env.URL + `/blog/${this.$route.params.tag}`},
+        { hid: 'description', name: 'description', content: this.story.content.meta },
+        { hid: "og:url", name: "og:url", content: this.info.URL + `/blog/${this.$route.params.slug}`},
         { hid: "og:type", name: "og:type", content: "blog"},
         { hid: 'og:title', name: 'og:title', content: this.story.content.title},
-        { hid: 'og:description', name: 'og:description', content: process.env.SITE_DESCRIPTION },
+        { hid: 'og:description', name: 'og:description', content: this.story.content.meta },
         { hid: 'og:image', name: 'og:image', content: this.story.content.image},
         { hid: "twitter:title", name: "twitter:title", content: this.story.content.title},
-        { hid: "twitter:description", name: "twitter:description", content: process.env.SITE_DESCRIPTION },
+        { hid: "twitter:description", name: "twitter:description", content: this.story.content.meta },
         { hid: "twitter:image", name: "twitter:image", content: this.story.content.image }
 
       ]
     }
   },
 
-    // data() {
-    //   return {
-    //       story: { content: { body: '' } }
-    //   }
-    // },
+    data () {
+        return { 
+            info
+        }
+    },
     computed: {
       body() {
         return marked(this.story.content.content)

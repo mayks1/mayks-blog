@@ -65,40 +65,48 @@
 </template>
 
 <script>
+import '~/data/meta.js'
 import axios from 'axios'
-// import cheerio from 'cheerio'
-
 
 export default {
-    head () {
-        return {
-            title: "Актуална Информация за COVID-19",
-            meta: [
-            {property: 'og:title', content: "Актуална Информация за COVID-19"},
-            {property: 'og:description', content: 'Показва текущи информация за заразени, починали, оздравели за цял свят и България'},
-            {property: 'og:image', content: '/corona.jpg'},
-            ],
-        }
-    },
-    data() {
-        return {
-            worldCases: {},
-            bulgariaCases: {},
-
-        }
-    },
-
-    created () {
-
-        axios.get('https://coronavirus-19-api.herokuapp.com/all')
-            .then(res => this.worldCases = res.data)
-            .catch(err => console.log(err))
-
-        axios.get('https://coronavirus-19-api.herokuapp.com/countries')
-            .then(res => this.bulgariaCases = res.data.find((el) => el.country == "Bulgaria"))
-            .catch(err => console.log(err))
-
+  head() {
+    return {
+      title: "Актуална Информация за COVID-19",
+      meta: [{
+          property: 'og:title',
+          content: "Актуална Информация за COVID-19"
+        },
+        { hid: "og:url", name: "og:url", content: this.info.URL + `${this.$route.fullPath}`},
+        {
+          property: 'og:description',
+          content: 'Показва текущи информация за заразени, починали, оздравели за цял свят и България'
+        },
+        {
+          property: 'og:image',
+          content: '/corona.jpg'
+        },
+      ],
     }
+  },
+  data() {
+    return {
+      worldCases: {},
+      bulgariaCases: {},
+      info
+    }
+  },
+
+  created() {
+
+    axios.get('https://coronavirus-19-api.herokuapp.com/all')
+      .then(res => this.worldCases = res.data)
+      .catch(err => console.log(err))
+
+    axios.get('https://coronavirus-19-api.herokuapp.com/countries')
+      .then(res => this.bulgariaCases = res.data.find((el) => el.country == "Bulgaria"))
+      .catch(err => console.log(err))
+
+  }
 
 }
 </script>

@@ -23,6 +23,7 @@
 </template> 
 
 <script>
+import '~/data/meta.js'
 import PostPreview from '~/components/PostPreview'
 import SideBar from '~/components/sections/SideBar'
 
@@ -37,7 +38,7 @@ export default {
         title: `Публикации в Категория ${this.stories[0].content.category[0].name}`,
         meta: [
           // { hid: 'description', name: 'description', content: this.post.meta },
-          { hid: "og:url", name: "og:url", content: process.env.URL + `/category/${this.$route.params.tag}`},
+          { hid: "og:url", name: "og:url", content: this.info.URL + `/category/${this.$route.params.slug}`},
           { hid: 'og:title', name: 'og:title', content: `Публикации в Категория ${this.stories[0].content.category[0].name}`},
           // { hid: 'og:description', name: 'og:description', content: this.post.meta || ''},
           { hid: "twitter:title", name: "twitter:title", content: `Публикации в Категория ${this.stories[0].content.category[0].name}`},
@@ -45,6 +46,12 @@ export default {
         ]
       }
   },
+
+  data () {
+        return { 
+            info
+        }
+    },
 
     asyncData (context) {
 
