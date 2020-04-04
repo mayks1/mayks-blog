@@ -92,3 +92,5 @@ sw.*
 /.env
 /.nuxt
 /pages/story
+/package.json.old
+/server

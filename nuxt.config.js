@@ -31,7 +31,7 @@ require('dotenv').config()
 
 // }
 
-export default {
+module.exports = {
 
   mode: 'universal',
   /*
