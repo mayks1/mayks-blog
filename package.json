@@ -5,17 +5,19 @@
   "author": "Michael Michaelov",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.6",
     "@nuxtjs/dotenv": "^1.4.1",
-    "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.1.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
     "marked": "^0.8.2",
     "nuxt": "^2.12.1",
     "nuxt-compress": "^1.1.0",
@@ -23,8 +25,8 @@
     "vue-agile": "^1.0.11"
   },
   "devDependencies": {
-    
     "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
     "sass-loader": "^8.0.2"
   }
 }
