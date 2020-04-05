@@ -164,62 +164,29 @@ module.exports = {
   ** Generate Dynamic Routes configuration
   */
   generate: {
-    // routes: async () => {
-    //   let { data } = await axios.post(process.env.POSTS_URL,
-    //   JSON.stringify({
-    //       filter: { published: true },
-    //       sort: {_created:-1},
-    //       populate: 1
-    //     }),
-    //   {
-    //     headers: { 'Content-Type': 'application/json' }
-    //   })
   
-    //   const collection = collect(data.entries)
-  
-    //   let tags = collection.map(post => post.tags)
-    //   .flatten()
-    //   .unique()
-    //   .map(tag => {
-    //     let payload = collection.filter(item => {
-    //       return collect(item.tags).contains(tag)
-    //     }).all()
-  
-    //     return {
-    //       route: `category/${tag}`,
-    //       payload: payload
-    //     }
-    //   }).all()
-  
-    //   let posts = collection.map(post => {
-    //     return {
-    //       route: `blog/${post.title_slug}`,
-    //       payload: post
-    //     }
-    //   }).all()
-  
-    //   return posts.concat(tags)
-    // }
-    // routes: dynamicRoutes
   },
+  
+  /*
+  ** Deploy configuration UNUBO
+  */
+ server: {
+  port: process.env.PORT || 3000,
+  host: '0.0.0.0'
+ 
+ },
+
 
   /*
   ** Build configuration
   */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-      // Create SourceMap in Developer Mode
-      if (ctx.isDev) {
-        config.devtool = ctx.isClient ? 'source-map' : 'inline-source-map'
-      }
-      
-    },
-    
-    // analyze: true,
-  },
+ build: {
+  /*
+  ** You can extend webpack config here
+  */
+  extend (config, ctx) {
+  }
+ }
   
   // transition: {
   //   name: 'fade',
