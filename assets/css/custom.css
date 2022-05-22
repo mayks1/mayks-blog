@@ -1,0 +1,158 @@
+/* @font-face {
+  font-family: PT Sans;
+  src: url('~assets/fonts/PTSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: PT Sans;
+  src: url('~assets/fonts/PTSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: PT Sans;
+  src: url('~assets/fonts/PTSans-Italic.ttf') format('truetype');
+  font-style: italic;
+}
+@font-face {
+  font-family: PT Sans;
+  src: url('~assets/fonts/PTSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+} */
+
+
+:root{
+    --white: #f9f9f9;
+    --black: #36383F;
+    --gray: #85888C;
+    --light-gray: #a7a7a7;
+    --pink: #E84E89;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  transform: none;
+  font-family: 'PT Sans';
+}
+
+html {
+    overflow: auto;
+    background-image: url("https://res.cloudinary.com/mayks/image/upload/v1653205958/blog-mayks/background/site-background-1_maa9un.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white);
+}
+/* Margin Bottom 10px */
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.svg-pink {
+  filter: invert(52%) sepia(25%) saturate(7497%) hue-rotate(308deg) brightness(94%) contrast(92%);
+}
+
+/**
+ * container
+ */
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.line-after:after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #e7e7e7;
+    margin-top: 10px;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .box {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
