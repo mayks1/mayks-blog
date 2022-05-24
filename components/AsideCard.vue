@@ -2,7 +2,12 @@
   <div class="aside-card">
             <h4 class="aside-card-title line-after">Категории</h4>
             <ul>
-                <li class="list-item" v-for="(category, i) in categories" :key="i">{{ category.name }}</li>
+                <li
+                class="list-item" 
+                v-for="(category, i) in categories" 
+                :key="i">
+                    <nuxt-link class="link" :to="`/blog/category/${category.slug}`">{{ category.name }}</nuxt-link>
+                </li>
                 
             </ul>
         </div>
@@ -39,6 +44,10 @@ ul .list-item {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ebebeb;
+}
+
+ul .list-item .link:hover {
+    color: var(--pink);
 }
 
 ul .list-item:last-of-type {

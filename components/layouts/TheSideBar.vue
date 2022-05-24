@@ -12,7 +12,7 @@
     }),
     async mounted() {
         this.categories = await this.$content('categories')
-            .only(['name'])
+            .only(['name', 'slug'])
             .sortBy('createdAt', 'asc')
             .fetch()
         this.dataReady = true
