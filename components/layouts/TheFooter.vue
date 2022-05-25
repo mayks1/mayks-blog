@@ -1,7 +1,7 @@
 <template>
   <footer class="flex-container">
     <!-- Последни Публикации -->
-    <div class="section-1 mb-10">
+    <!-- <div class="section-1 mb-10">
 
       <h4 class="title">Последни Публикации</h4>
       <div class="section-box">
@@ -20,9 +20,9 @@
         </li>
       </ul>
       </div>
-    </div>
+    </div> -->
     <!-- Категории -->
-    <div class="section-2 mb-10">
+    <!-- <div class="section-2 mb-10">
       <h4 class="title">Категории</h4>
       <div class="section-box">
       <ul class="footer-link">
@@ -40,9 +40,9 @@
         </li>
       </ul>
       </div>
-    </div>
+    </div> -->
     <!-- За Сайта -->
-    <div class="section-3 mb-10">
+    <!-- <div class="section-3 mb-10">
       <h4 class="title">За Сайта</h4>
       <div class="section-box">
         <div class="avatar">
@@ -55,14 +55,13 @@
           <p class="founder">Създател и редактор</p>
         </div>
       </div>
-
-    </div>
+    </div> -->
 
     <div class="copyright">
       <h2 class="logo">
         <img src="https://res.cloudinary.com/mayks/image/upload/v1653205658/blog-mayks/logo/logo-70_trtqn0.png" style="width: 160px;" loading="lazy" alt="Mayks Logo">
       </h2>
-      <p class="small text-muted text-center">© 2022 Mayks Blog. All rights reserved.</p>
+      <p class="small text-muted text-center">© 2022 MSPASE Blog. All rights reserved.</p>
     </div>
   </footer>
 

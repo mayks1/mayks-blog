@@ -24,7 +24,7 @@ export default {
     TheNav,
     TheSideBar,
     TheAdvertiser,
-},
+  },
 }
 </script>
 

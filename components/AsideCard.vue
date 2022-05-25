@@ -32,18 +32,21 @@ export default {
 }
 .aside-card-title {
     font-size: 24px;
-    color: #333333;
+    color: var(--black);
     text-align: left;
     margin: 0 0 40px;
 
 }
 
 ul .list-item {
-    color:#333333;
     line-height: 30px;
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ebebeb;
+}
+
+ul .list-item .link {
+    color: var(--gray)
 }
 
 ul .list-item .link:hover {

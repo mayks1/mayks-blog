@@ -43,14 +43,35 @@
 <style scoped>
 .search-container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.search-container ul {
-  padding: 10px;
-}
-
 .search-container .input {
   margin: 0 auto 20px auto;
   color: var(--black);
 }
+
+.search-container ul {
+  background-color: var(--white);
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.search-container ul li {
+  padding: 10px;
+}
+
+li a {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+li a:hover {
+  color: var(--pink);
+}
+
+
+
 </style>

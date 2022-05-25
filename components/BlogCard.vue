@@ -94,7 +94,7 @@ img:focus {
   font-size: 24px;
   font-weight: 600;
   margin-top: 16px;
-  color: #333333;
+  color: var(--black);
 }
 
 p {
