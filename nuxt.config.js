@@ -1,9 +1,16 @@
+import getRoutes from "./utils/getRoutes";
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    htmlAttrs: {
+      lang: "bg-BG",
+      prefix: "og: http://ogp.me/ns#",
+      // class: "bg-black",
+    },
     title: "MSpase Blog",
     meta: [
       { charset: "utf-8" },
@@ -69,6 +76,8 @@ export default {
     "@nuxt/content",
     // Optimized and Easy way to use SVG files in Nuxt.js
     "@nuxtjs/svg-sprite",
+    // Add the Nuxt sitemap module
+    "@nuxtjs/sitemap",
   ],
   svgSprite: {
     input: "~/assets/svg/icons/",
@@ -93,4 +102,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  // Sitemap Configuration
+  sitemap: {
+    hostname: "https://mspase.com", // https://www.mspase.com
+    routes() {
+      return getRoutes();
+    },
+  },
 };

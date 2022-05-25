@@ -3,7 +3,7 @@
   <div class="wrapper">
     <TheHeader class="main-head" />
     <TheNav class="main-nav" />
-      <Nuxt class="content"/>
+      <Nuxt class="content"  keep-alive/>
     <TheSideBar class="side"/>
     <TheAdvertiser class="ad"/>
     <TheFooter class="main-footer" />

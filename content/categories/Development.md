@@ -1,5 +1,0 @@
----
-name: Development
-description: Последните новини, трейлъри и ревюта от света на киното.
-img: https://images2.imgbox.com/e3/5a/Q3cK2CFc_o.jpg
----

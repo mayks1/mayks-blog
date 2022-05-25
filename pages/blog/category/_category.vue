@@ -23,10 +23,11 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const categories = await $content('categories')
+    const categories = await $content('categories', params.slug)
       .only(['name', 'description'])
-      .where({ slug: { $contains: params.category } })
-      .limit(1)
+      // .where({ slug: { $contains: params.category } })
+      // .limit(1)
+      .sortBy('createdAt', 'desc')
       .fetch()
     const category = categories.length > 0 ? categories[0] : {}
     const articles = await $content('articles', params.slug)
@@ -64,7 +65,8 @@ p {
 
 h2 {
   font-size: 24px;
-  color: var(--gray);
+  color: #444444;
+  /* color: var(--gray); */
 }
 
 ul {
