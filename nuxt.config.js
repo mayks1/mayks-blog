@@ -4,13 +4,15 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Mayks Blog",
+    title: "MSpase Blog",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
-      { name: "msapplication-TileColor", content: "#da532c" },
+      { name: "apple-mobile-web-app-title", content: "Mspase Blog" },
+      { name: "application-name", content: "Mspase Blog" },
+      { name: "msapplication-TileColor", content: "#603cba" },
       { name: "theme-color", content: "#333333" },
     ],
     link: [

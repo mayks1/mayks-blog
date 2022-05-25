@@ -59,7 +59,7 @@
 
     <div class="copyright">
       <h2 class="logo">
-        <img src="https://res.cloudinary.com/mayks/image/upload/v1653205658/blog-mayks/logo/logo-70_trtqn0.png" style="width: 160px;" loading="lazy" alt="Mayks Logo">
+        <img src="https://res.cloudinary.com/mayks/image/upload/c_scale,w_160/v1653483806/blog-mayks/logo/mspase-logo.png" style="width: 160px;" loading="lazy" alt="Mayks Logo">
       </h2>
       <p class="small text-muted text-center">© 2022 MSPASE Blog. All rights reserved.</p>
     </div>
