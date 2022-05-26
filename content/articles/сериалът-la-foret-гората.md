@@ -4,7 +4,7 @@ description: Френски криминален сериал
 img: https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-1_agt3xw_vrtcxp.webp
 alt: La Foret – Гората
 categories:
-  - Филми
+  - филми
 tags:
   - филми
   - сериали

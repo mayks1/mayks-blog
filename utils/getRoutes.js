@@ -10,5 +10,5 @@ export default async () => {
   // Map and concatenate the routes and return the array.
   return []
     .concat(...articles.map((a) => a.path))
-    .concat(...categories.map((c) => "/articles" + c.path));
+    .concat(...categories.map((c) => c.path));
 };

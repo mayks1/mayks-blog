@@ -15,6 +15,7 @@
           </NuxtLink>
         </li>
       </ul>
+
     </div>
 
   </article>
@@ -23,16 +24,16 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const categories = await $content('categories', params.slug)
+    const category = await $content('categories', params.slug)
       .only(['name', 'description'])
       // .where({ slug: { $contains: params.category } })
-      // .limit(1)
+      .limit(1)
       .sortBy('createdAt', 'desc')
       .fetch()
-    const category = categories.length > 0 ? categories[0] : {}
-    const articles = await $content('articles', params.slug)
+    // const category = categories.length > 0 ? categories[0] : {}
+    const articles = await $content('articles')
       .only(['title', 'description', 'slug'])
-      .where({ categories: { $contains: category.name } })
+      .where({ categories: { $contains: params.slug } })
       .fetch()
     return {
       articles,
