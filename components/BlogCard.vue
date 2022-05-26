@@ -12,7 +12,7 @@
           <div v-if="article.categories">
             <span v-for="(category, i) in article.categories" :key="i" class="category">{{ category }}</span>
           </div>
-          <Date :date="article.updatedAt" />
+          <Date :date="article.createdAt" />
         </div>
         
         <NuxtLink :to="`/articles/${article.slug}`">
@@ -80,13 +80,15 @@ img:focus {
 
 /* Style div elements that have class equal to category */
 .category {
-  border: 1px solid #e5eaed;
-  padding: 4px 8px;
+  /* border: 1px solid #e5eaed; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding: 8px 15px;
   margin-right: 10px;
-  border-radius: 10px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #788697;
+  border-radius: 18px;
+  font-size: 14px;
+  /* font-weight: 600; */
+  color: var(--white);
+  background-color: var(--dark-blue);
 }
 
 /* Style div elements that have class equal to name */
