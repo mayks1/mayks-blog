@@ -125,9 +125,11 @@ a:hover {
     outline: 0;
 }
 
-ol, ul {
+/* ol, ul li::marker{
 	list-style: none;
-}
+} */
+
+
 
 .line-after:after {
     display: block;
