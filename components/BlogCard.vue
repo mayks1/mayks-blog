@@ -2,7 +2,7 @@
   <!-- /.blog-card -->
   <article class="card-wrapper">
     <div class="card">
-       <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+       <NuxtLink :to="`/articles/${article.slug}`">
         <img :src="article.img" loading="lazy" :alt="article.alt">
        </NuxtLink>
       
@@ -15,13 +15,13 @@
           <Date :date="article.updatedAt" />
         </div>
         
-        <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+        <NuxtLink :to="`/articles/${article.slug}`">
           <h2 class="name">{{ article.title }}</h2>
         </NuxtLink>
         <p>{{ article.description }}</p>
         <Button 
           text="Продължи да четеш" 
-          :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+          :to="`/articles/${article.slug}`"
         />
       </div>
     </div>

@@ -6,7 +6,7 @@
                 class="list-item" 
                 v-for="(category, i) in categories" 
                 :key="i">
-                    <nuxt-link class="link" :to="`/blog/category/${category.slug}`">{{ category.name }}</nuxt-link>
+                    <nuxt-link class="link" :to="`/articles/category/${category.slug}`">{{ category.name }}</nuxt-link>
                 </li>
                 
             </ul>

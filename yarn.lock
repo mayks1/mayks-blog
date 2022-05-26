@@ -1890,6 +1890,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxtjs/robots@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@nuxtjs/robots@npm:2.5.0"
+  checksum: da06216406bfb4835584b5c45bb0727b0aa06260eb4d5fe1f9e1a9855e26439a3ecda7d8fdf3631fb2cdfd254764946e25c9bd7e1f7a2060e4223a80415d09ee
+  languageName: node
+  linkType: hard
+
 "@nuxtjs/sitemap@npm:^2.4.0":
   version: 2.4.0
   resolution: "@nuxtjs/sitemap@npm:2.4.0"
@@ -8104,6 +8111,7 @@ __metadata:
   dependencies:
     "@nuxt/content": ^1.15.1
     "@nuxtjs/pwa": ^3.3.5
+    "@nuxtjs/robots": ^2.5.0
     "@nuxtjs/sitemap": ^2.4.0
     "@nuxtjs/svg-sprite": ^0.5.2
     core-js: ^3.19.3

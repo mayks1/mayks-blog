@@ -7,9 +7,8 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
-      lang: "bg-BG",
-      prefix: "og: http://ogp.me/ns#",
-      // class: "bg-black",
+      lang: "bg",
+      // prefix: "og: http://ogp.me/ns#",
     },
     title: "MSpase Blog",
     meta: [
@@ -76,6 +75,8 @@ export default {
     "@nuxt/content",
     // Optimized and Easy way to use SVG files in Nuxt.js
     "@nuxtjs/svg-sprite",
+    // A Nuxt.js module thats inject a middleware to generate a robots.txt
+    "@nuxtjs/robots",
     // Add the Nuxt sitemap module
     "@nuxtjs/sitemap",
   ],
