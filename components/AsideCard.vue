@@ -23,39 +23,5 @@ export default {
 </script>
 
 <style scoped>
-.aside-card {
-    background-color: var(--white);
-    border-radius: 12px;
-    border: 1px solid #bacdd8;
-    padding: 30px;
 
-}
-.aside-card-title {
-    font-size: 24px;
-    color: var(--black);
-    text-align: left;
-    margin: 0 0 40px;
-
-}
-
-ul .list-item {
-    line-height: 30px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ebebeb;
-}
-
-ul .list-item .link {
-    color: var(--gray)
-}
-
-ul .list-item .link:hover {
-    color: var(--pink);
-}
-
-ul .list-item:last-of-type {
-    margin-bottom: 0;
-    border-bottom: 0;
-    padding-bottom: 0;
-}
 </style>

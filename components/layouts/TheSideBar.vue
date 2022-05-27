@@ -1,21 +1,23 @@
 <template>
     <aside class="aside-wrapper box">
         <AsideCard v-if="dataReady" :categories="categories"/>
+        <AdsCard/>
     </aside>
 </template>
 
 <script>
+import AdsCard from '../AdsCard.vue'
   export default {
     data: () => ({
         categories: [],
         dataReady: false,
     }),
     async mounted() {
-        this.categories = await this.$content('categories')
-            .only(['name', 'slug'])
-            .sortBy('createdAt', 'asc')
-            .fetch()
-        this.dataReady = true
+        this.categories = await this.$content("categories")
+            .only(["name", "slug"])
+            .sortBy("createdAt", "asc")
+            .fetch();
+        this.dataReady = true;
     }
     // async asyncData({ $content, params }) {
     //     const articles = await $content("articles")
@@ -26,6 +28,8 @@
     //         articles
     //     };
     // },
+    ,
+    components: { AdsCard }
 }
 </script>
 

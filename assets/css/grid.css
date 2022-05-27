@@ -6,12 +6,15 @@
     "nav"
     "content"
     "sidebar"
-    "ad"
+    /* "ad" */
     "footer";
 }
 
 .main-head {
   grid-area: header;
+}
+.main-nav {
+  grid-area: nav;
 }
 .content {
   grid-area: content;
@@ -21,15 +24,12 @@
   margin-right: 15px; */
   /* position: relative; */
 }
-.main-nav {
-  grid-area: nav;
-}
 .side {
   grid-area: sidebar;
 }
-.ad {
+/* .ad {
   grid-area: ad;
-}
+} */
 .main-footer {
   grid-area: footer;
 }
@@ -58,7 +58,7 @@
         "header header"
         "nav nav"
         "content sidebar"
-        "content ad"
+        "content sidebar"
         "footer footer";
   }
 }

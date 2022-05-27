@@ -53,7 +53,11 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["~/assets/css/custom.css", "~/assets/css/grid.css"],
+  css: [
+    "~/assets/css/custom.css",
+    "~/assets/css/grid.css",
+    "~/assets/css/aside.css",
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

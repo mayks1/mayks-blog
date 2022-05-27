@@ -5,7 +5,6 @@
     <TheNav class="main-nav" />
       <Nuxt class="content"  keep-alive/>
     <TheSideBar class="side"/>
-    <TheAdvertiser class="ad"/>
     <TheFooter class="main-footer" />
   </div>
   <!-- </div> -->
@@ -15,7 +14,6 @@ import TheHeader from "~/components/layouts/TheHeader"
 import TheNav from "~/components/layouts/TheNav"
 import TheFooter from "~/components/layouts/TheFooter"
 import TheSideBar from "~/components/layouts/TheSideBar"
-import TheAdvertiser from "../components/layouts/TheAdvertiser"
 
 export default {
   components: {
@@ -23,7 +21,6 @@ export default {
     TheFooter,
     TheNav,
     TheSideBar,
-    TheAdvertiser,
   },
 }
 </script>
