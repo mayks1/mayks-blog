@@ -3,6 +3,7 @@ title: Сериалът - From
 description: FROM разкрива мистерията на един кошмарен град в Средна Америка, който хваща в капан всички, които влизат.
 img: https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-main_atkv2j.webp
 alt: Сериалът - From
+rating: 7.6 / 10
 categories:
   - филми
 tags:

@@ -18,8 +18,8 @@ import TheSideBar from "~/components/layouts/TheSideBar"
 export default {
   components: {
     TheHeader,
-    TheFooter,
     TheNav,
+    TheFooter,
     TheSideBar,
   },
 }

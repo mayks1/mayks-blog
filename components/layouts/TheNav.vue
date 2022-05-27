@@ -3,7 +3,7 @@
   <!-- Menu -->
   <nav class="navbar stroke">
     <ul class="menu">
-      <li>
+      <!-- <li>
         <nuxt-link to="/">Начало</nuxt-link>
       </li>
       <li>
@@ -11,9 +11,9 @@
       </li>
       <li>
         <nuxt-link to="#">Контакт</nuxt-link>
-      </li>
+      </li> -->
     </ul>
-    <AppSearchInput />
+    <!-- <AppSearchInput /> -->
   </nav>
 
 </template>

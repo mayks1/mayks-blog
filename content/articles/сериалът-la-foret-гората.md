@@ -3,6 +3,7 @@ title: Сериалът La Forêt – Гората
 description: Френски криминален сериал
 img: https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-1_agt3xw_vrtcxp.webp
 alt: La Foret – Гората
+rating: 7.2 / 10
 categories:
   - филми
 tags:
@@ -11,7 +12,8 @@ tags:
 date: 25 май 2022г.
 status: publish
 ---
-## Френски криминален сериал
+## Френски криминален сериал  
+
 | ![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-7_fxnlrd_ijw6vb.webp) | ![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-5_ctgtgp_xa3ovi.webp) |
 |--|--|
 |![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-8_wsv7kh_stzfgc.webp)  | ![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-6_ruiwcq_thsppj.webp) |
@@ -25,7 +27,11 @@ status: publish
 
 -   [Samuel Labarthe](https://www.imdb.com/name/nm0479355/?ref_=tt_ov_st)
 -   [Suzanne Clément](https://www.imdb.com/name/nm0167501/?ref_=tt_ov_st)
--   [Alexia Barlier](https://www.imdb.com/name/nm1715145/?ref_=tt_ov_st)
+-   [Alexia Barlier](https://www.imdb.com/name/nm1715145/?ref_=tt_ov_st)  
+
+<div class="video">
+  <video-player src="https://www.youtube.com/embed/0KGIwqRlgQ8" />
+</div>
 
 #### Сюжет:
 
