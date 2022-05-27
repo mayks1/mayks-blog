@@ -1,7 +1,7 @@
 <template>
   <time class="time-box">
     <svg-icon class="svg-pink" name="calendar-outline" title="Calendar" />
-    {{ formatDate(date) }}
+    {{ date }}
   </time>
 </template>
 

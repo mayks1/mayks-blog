@@ -15,7 +15,7 @@
 
         <div class="meta">
           <div class="meta-info">
-            <Date :date="article.updatedAt"/>
+            <Date :date="article.date"/>
             <h1 class="meta-title">
               {{ article.title }}
             </h1>
@@ -25,9 +25,6 @@
        
         <div>
             <nuxt-content :document="article" class="typo"/>
-            <!-- <nuxt-content :document="article" class="markdown-css"/> -->
-
-            <!-- <author :author="article.author" /> -->
             
             <prev-next :prev="prev" :next="next" />
         </div>
@@ -35,22 +32,31 @@
 </article>
 </template>
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-        const article = await $content("articles", params.slug).fetch();
-        const [prev, next] = await $content("articles")
-            .only(["title", "slug", "updatedAt"])
-            .sortBy("createdAt", "asc")
-            .surround(params.slug)
-            .fetch();
-        return { article, prev, next };
-    },
+import VideoPlayer from 'nuxt-video-player'
+require('nuxt-video-player/src/assets/css/main.css')
+
+export default {
+  components: {
+    VideoPlayer
+  },
+  async asyncData({ $content, params }) {
+      const article = await $content("articles", params.slug).fetch();
+      const [prev, next] = await $content("articles")
+          .only(["title", "slug", "updatedAt"])
+          .sortBy("createdAt", "asc")
+          .surround(params.slug)
+          .fetch();
+      return { article, prev, next };
+  },
 }
 </script>
 
 <style>
 @import url("~/assets/css/markdown.css");
 
+.typo .video {
+  margin: 15px 0;
+}
 .blog-post {
   width: 100%;
   background-color: var(--white);

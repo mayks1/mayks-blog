@@ -4219,6 +4219,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.6.5":
+  version: 3.22.7
+  resolution: "core-js@npm:3.22.7"
+  checksum: c5f1d8a96b6d1828d02583603d9df1fcbf45f95454585ff9d49ba7ea1470bf1422d00561044939bf4952465ae4ae2bf30a39b4874da8ed2741a3f3996bd175ab
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -8117,6 +8124,7 @@ __metadata:
     core-js: ^3.19.3
     nuxt: ^2.15.8
     nuxt-font-loader: ^1.1.4
+    nuxt-video-player: ^1.0.17
     prism-themes: ^1.9.0
     vue: ^2.6.14
     vue-server-renderer: ^2.6.14
@@ -8437,6 +8445,16 @@ __metadata:
   version: 1.1.4
   resolution: "nuxt-font-loader@npm:1.1.4"
   checksum: 9dbb4437691fdd9afe7c0e5ecf4b48b5973b7b75ff6cd003d7b8df2d571b7f6e5bfd61ad6692e9f6f83364677591e6fac69b52201ec8bc0d2c66c2bbfc167309
+  languageName: node
+  linkType: hard
+
+"nuxt-video-player@npm:^1.0.17":
+  version: 1.0.17
+  resolution: "nuxt-video-player@npm:1.0.17"
+  dependencies:
+    core-js: ^3.6.5
+    vue: ^2.6.11
+  checksum: 12a8072d7c35fca3b3d0663bbb000108df39d37e70ad9287a39ddb2763e825d55c65833aefebd6a7f3278cbc25b2a470b93977b151560aa0748ed487214bdaf9
   languageName: node
   linkType: hard
 
@@ -12308,7 +12326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^2.6.12, vue@npm:^2.6.14":
+"vue@npm:^2.6.11, vue@npm:^2.6.12, vue@npm:^2.6.14":
   version: 2.6.14
   resolution: "vue@npm:2.6.14"
   checksum: 23524a1bdca094d62cb3491a46317eed75184b5d61d28fa846ea5d2b241c1cc7084fc67ee259d47a50a6d0bbc33ecaceb7bb52bff81312fe7da07263f3419942

@@ -12,7 +12,7 @@
           <div v-if="article.categories">
             <span v-for="(category, i) in article.categories" :key="i" class="category">{{ category }}</span>
           </div>
-          <Date :date="article.updatedAt" />
+          <Date :date="article.date" />
         </div>
         
         <NuxtLink :to="`/articles/${article.slug}`">
