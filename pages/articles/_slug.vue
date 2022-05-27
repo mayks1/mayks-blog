@@ -15,7 +15,7 @@
 
         <div class="meta">
           <div class="meta-info">
-            <Date :date="article.createdAt"/>
+            <Date :date="article.updatedAt"/>
             <h1 class="meta-title">
               {{ article.title }}
             </h1>
@@ -39,7 +39,7 @@
     async asyncData({ $content, params }) {
         const article = await $content("articles", params.slug).fetch();
         const [prev, next] = await $content("articles")
-            .only(["title", "slug", "createdAt"])
+            .only(["title", "slug", "updatedAt"])
             .sortBy("createdAt", "asc")
             .surround(params.slug)
             .fetch();
