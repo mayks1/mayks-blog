@@ -2,7 +2,7 @@
   <div class="prev-next">
     <NuxtLink
       v-if="prev"
-      :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
+      :to="`/articles/${prev.slug}`"
       class="prev-next-links"
     >
       <svg-icon 
@@ -16,7 +16,7 @@
     <span v-else>&nbsp;</span>
     <NuxtLink
       v-if="next"
-      :to="{ name: 'blog-slug', params: { slug: next.slug } }"
+      :to="`/articles/${next.slug}`"
       class="prev-next-links"
     >
       <!-- {{ next.title }} -->

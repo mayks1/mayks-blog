@@ -13,6 +13,7 @@ export default {
     title: "MSpase Blog",
     meta: [
       { charset: "utf-8" },
+      { name: "language", content: "bulgarian" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
@@ -61,16 +62,25 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["nuxt-font-loader"],
+  buildModules: [
+    "nuxt-font-loader",
+    // https://go.nuxtjs.dev/pwa
+    "@nuxtjs/pwa",
+  ],
 
   fontLoader: {
     url: "/fonts/font-face.css",
   },
 
+  // PWA module configuration: https://go.nuxtjs.dev/pwa
+  pwa: {
+    manifest: {
+      lang: "bg",
+    },
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/pwa
-    "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
     // Optimized and Easy way to use SVG files in Nuxt.js
@@ -80,15 +90,9 @@ export default {
     // Add the Nuxt sitemap module
     "@nuxtjs/sitemap",
   ],
+
   svgSprite: {
     input: "~/assets/svg/icons/",
-  },
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: "en",
-    },
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
