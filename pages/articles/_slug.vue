@@ -14,12 +14,24 @@
         </figure>
 
         <div class="meta">
+
           <div class="meta-info">
             <Date :date="article.date"/>
-            <h1 class="meta-title">
-              {{ article.title }}
-            </h1>
+            <div v-if="article.categories[0] === 'филми'" class="imdb-subs">
+              <a :href="article.imdb" target="_blank">
+                <svg-icon name="imdb" title="Виж в IMDB" />
+              </a>
+              <a :href="article.subs" target="_blank">
+                <img class="icon" src="~assets/img/subtitles.png" alt="Свали Български Субтитри" title="Свали Български Субтитри">
+              </a>
+            </div>
+            
           </div>
+
+          <h1 class="meta-title">
+            {{ article.title }}
+          </h1>
+
         </div>
       </header>
        
@@ -33,6 +45,7 @@
 </template>
 <script>
 import VideoPlayer from 'nuxt-video-player'
+import global from '@/utils/global'
 import getSiteMeta from '@/utils/getSiteMeta'
 require('nuxt-video-player/src/assets/css/main.css')
 
@@ -46,7 +59,7 @@ export default {
         type: "article",
         title: this.article.title,
         description: this.article.description,
-        url: `https://mspase.com/articles/${this.$route.params.slug}`,
+        url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
         mainImage: this.article.img,
       };
       return getSiteMeta(metaData);
@@ -80,7 +93,7 @@ export default {
           content: this.article.tags ? this.article.tags.toString() : "",
         },
         { name: "twitter:label1", content: "Written by" },
-        { name: "twitter:data1", content: "Mayks" },
+        { name: "twitter:data1", content: global.author || '' },
         { name: "twitter:label2", content: "Filed under" },
         {
           name: "twitter:data2",
@@ -91,7 +104,7 @@ export default {
         {
           hid: "canonical",
           rel: "canonical",
-          href: `https://mspase.com/articles/${this.$route.params.slug}`,
+          href: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
         },
       ],
     }
@@ -124,6 +137,26 @@ figure img {
   object-fit: cover;
   border-radius: 12px;
 }
+
+.meta-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta-info .icon {
+  height: 30px;
+  width: 30px;
+}
+
+.meta-info .imdb-subs {
+  display: flex;
+}
+.meta-info .imdb-subs a:first-child {
+  margin-right: 20px;
+}
+
+
 
 .meta-title { 
   font-size:2em;

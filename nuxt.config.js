@@ -1,3 +1,4 @@
+import global from "./utils/global";
 import getRoutes from "./utils/getRoutes";
 import getSiteMeta from "./utils/getSiteMeta";
 
@@ -13,7 +14,7 @@ export default {
       lang: "bg-BG",
       // prefix: "og: http://ogp.me/ns#",
     },
-    title: "Блог за авторски материали, интересни новини и истории",
+    title: global.siteTitle,
     meta: [
       {
         name: "google-site-verification",
@@ -23,33 +24,24 @@ export default {
       { charset: "utf-8" },
       { name: "language", content: "bulgarian" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { property: "og:site_name", content: "Mayks" },
+      { property: "og:site_name", content: global.siteName || "" },
       {
         hid: "description",
         name: "description",
-        content:
-          "Mspase.com - ви предоставя интересни новини и истории от България и света, свободни мнения, лайфстайл, сериали, филми, субтитри, технологии, наука, програмиране",
+        content: global.siteDesc || "",
       },
       { name: "format-detection", content: "telephone=no" },
-      { name: "apple-mobile-web-app-title", content: "Mspase Blog" },
-      { name: "application-name", content: "Mspase Blog" },
+      { name: "apple-mobile-web-app-title", content: global.siteName || "" },
+      { name: "application-name", content: global.siteName || "" },
       { name: "msapplication-TileColor", content: "#603cba" },
       { name: "theme-color", content: "#333333" },
       { property: "og:image:width", content: "740" },
       { property: "og:image:height", content: "300" },
-      { name: "twitter:site", content: "@mayks" },
-      {
-        name: "twitter:card",
-        content:
-          "https://res.cloudinary.com/mayks/image/upload/v1653483806/blog-mayks/logo/mspase-logo.png",
-      },
+      { name: "twitter:site", content: global.siteName || "" },
+      { name: "twitter:card", content: global.mainImage },
     ],
     link: [
-      {
-        hid: "canonical",
-        rel: "canonical",
-        href: "https://mspase.com",
-      },
+      { hid: "canonical", rel: "canonical", href: global.siteUrl },
       {
         rel: "apple-touch-icon",
         sizes: "180x180",
@@ -124,6 +116,7 @@ export default {
 
   svgSprite: {
     input: "~/assets/svg/icons/",
+    input: "~/assets/svg/brand/",
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -140,10 +133,13 @@ export default {
   build: {},
   // Sitemap Configuration
   sitemap: {
-    hostname: "https://mspase.com", // https://www.mspase.com
+    hostname: global.twitterURL, // https://www.mspase.com
     routes() {
       return getRoutes();
     },
+  },
+  publicRuntimeConfig: {
+    baseUrl: process.env.BASE_URL || "http://localhost:3000",
   },
   generate: {
     fallback: true,

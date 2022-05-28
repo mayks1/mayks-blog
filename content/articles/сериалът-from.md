@@ -1,14 +1,17 @@
 ---
-title: Сериалът - From
-description: FROM разкрива мистерията на един кошмарен град в Средна Америка, който хваща в капан всички, които влизат.
+title: From - сериал на Epix
+description: From - сериал на компанията EPIX разкрива мистерията на един кошмарен град в Средна Америка, който хваща в капан всички, които влизат.
 img: https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-main_atkv2j.webp
-alt: Сериалът - From
+alt: Сериалът - From - мистерията на един кошмарен град в Средна Америка
+imdb: https://www.imdb.com/title/tt9813792/?ref_=ext_shr_lnk
+subs: https://www.dropbox.com/s/w958p6pmijwpo8m/From.S01.COMPLETE.720p.AMZN_.WEBRip.x264-GalaxyTVTGx.zip?dl=0
 rating: 7.6 / 10
 categories:
   - филми
 tags:
   - филми
   - сериали
+  - ужаси
 date: 27 май 2022г.
 status: publish
 ---

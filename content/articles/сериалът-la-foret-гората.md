@@ -1,14 +1,16 @@
 ---
-title: Сериалът La Forêt – Гората
-description: Френски криминален сериал
+title: Сериал La Forêt – Гората
+description: Този френски сериал La Forêt – Гората е от шест части се развива в село в Ардените, където шестнадесет годишно момиче Дженифър изчезва. 
 img: https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-1_agt3xw_vrtcxp.webp
-alt: La Foret – Гората
-rating: 7.2 / 10
+alt: сериал La Foret – Гората
+imdb: https://www.imdb.com/title/tt6560040/?ref_=ext_shr_lnk
+subs: https://www.dropbox.com/s/ay657wmb35lcs5q/La-foret-S01.zip?dl=0
 categories:
   - филми
 tags:
   - филми
   - сериали
+  - криминален
 date: 25 май 2022г.
 status: publish
 ---
