@@ -133,7 +133,7 @@ export default {
   build: {},
   // Sitemap Configuration
   sitemap: {
-    hostname: global.twitterURL, // https://www.mspase.com
+    hostname: global.siteUrl, // https://www.mspase.com
     routes() {
       return getRoutes();
     },
