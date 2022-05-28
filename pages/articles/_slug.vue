@@ -17,13 +17,16 @@
 
           <div class="meta-info">
             <Date :date="article.date"/>
-            <div v-if="article.categories[0] === 'филми'" class="imdb-subs">
-              <a :href="article.imdb" target="_blank">
-                <svg-icon name="imdb" title="Виж в IMDB" />
+
+            <div v-if="article.categories[0] === 'филми'" class="meta-info-icons">
+
+              <a  :href="article.imdb" target="_blank">
+                <svg-icon class="meta-info-icons__small" name="imdb" title="Виж в IMDB" />
               </a>
-              <a :href="article.subs" target="_blank">
-                <img class="icon" src="~assets/img/subtitles.png" alt="Свали Български Субтитри" title="Свали Български Субтитри">
+              <a class="meta-info-icons__small" :href="article.subs" target="_blank">
+                <img class="meta-info-icons__small" src="~assets/img/subtitles.png" alt="Свали Български Субтитри" title="Свали Български Субтитри">
               </a>
+
             </div>
             
           </div>
@@ -138,26 +141,6 @@ figure img {
   border-radius: 12px;
 }
 
-.meta-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.meta-info .icon {
-  height: 30px;
-  width: 30px;
-}
-
-.meta-info .imdb-subs {
-  display: flex;
-}
-.meta-info .imdb-subs a:first-child {
-  margin-right: 20px;
-}
-
-
-
 .meta-title { 
   font-size:2em;
   font-weight:700;
@@ -165,5 +148,23 @@ figure img {
   line-height:1.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+.meta-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta-info-icons a {
+  vertical-align: middle;
+}
+.meta-info-icons .meta-info-icons__small {
+  height: 30px;
+  width: 30px;
+}
+
+.meta-info-icons .meta-info-icons__small:first-child {
+  margin-right: 20px;
 }
 </style>

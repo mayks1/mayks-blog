@@ -68,10 +68,6 @@ body {
   margin-bottom: 30px;
 }
 
-.svg-pink {
-  filter: invert(52%) sepia(25%) saturate(7497%) hue-rotate(308deg) brightness(94%) contrast(92%);
-}
-
 li {
   list-style: none;
 }

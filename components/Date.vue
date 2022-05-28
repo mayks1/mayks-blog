@@ -1,7 +1,7 @@
 <template>
   <time class="time-box">
-    <svg-icon class="svg-pink" name="calendar-outline" title="Calendar" />
-    {{ date }}
+    <svg-icon class="svg-pink" name="calendar-outline" title="Календар" />
+    <span>{{ date }}</span>
   </time>
 </template>
 
@@ -24,12 +24,17 @@ export default {
   font-size: 14px;
 }
 
-.icon {
+.time-box .icon {
   vertical-align: middle;
-  margin-right: 2px;
+  margin-right: 5px;
   width: 1em;
   height: 1em;
   font-size: 1.2em;
+  filter: invert(52%) sepia(25%) saturate(7497%) hue-rotate(308deg) brightness(94%) contrast(92%);
+}
+
+.time-box span {
+  vertical-align: middle;
 }
 
 </style>

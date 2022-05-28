@@ -87,12 +87,18 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     "nuxt-font-loader",
+    // Optimized and Easy way to use SVG files in Nuxt.js
+    "@nuxtjs/svg-sprite",
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
   ],
 
   fontLoader: {
     url: "/fonts/font-face.css",
+  },
+
+  svgSprite: {
+    input: "~/assets/svg/icons/",
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -106,18 +112,11 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
-    // Optimized and Easy way to use SVG files in Nuxt.js
-    "@nuxtjs/svg-sprite",
     // A Nuxt.js module thats inject a middleware to generate a robots.txt
     "@nuxtjs/robots",
     // Add the Nuxt sitemap module
     "@nuxtjs/sitemap",
   ],
-
-  svgSprite: {
-    input: "~/assets/svg/icons/",
-    input: "~/assets/svg/brand/",
-  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
