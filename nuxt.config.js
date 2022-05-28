@@ -1,4 +1,7 @@
 import getRoutes from "./utils/getRoutes";
+import getSiteMeta from "./utils/getSiteMeta";
+
+const meta = getSiteMeta();
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -7,22 +10,46 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
-      lang: "bg",
+      lang: "bg-BG",
       // prefix: "og: http://ogp.me/ns#",
     },
-    title: "MSpase Blog",
+    title: "Блог за авторски материали, интересни новини и истории",
     meta: [
+      {
+        name: "google-site-verification",
+        content: "cxhSEt9LsuBdDO9G8hqQY4ta8Y8P2renRpirqF9bfdE",
+      },
+      ...meta,
       { charset: "utf-8" },
       { name: "language", content: "bulgarian" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      { property: "og:site_name", content: "Mayks" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Mspase.com - ви предоставя интересни новини и истории от България и света, свободни мнения, лайфстайл, сериали, филми, субтитри, технологии, наука, програмиране",
+      },
       { name: "format-detection", content: "telephone=no" },
       { name: "apple-mobile-web-app-title", content: "Mspase Blog" },
       { name: "application-name", content: "Mspase Blog" },
       { name: "msapplication-TileColor", content: "#603cba" },
       { name: "theme-color", content: "#333333" },
+      { property: "og:image:width", content: "740" },
+      { property: "og:image:height", content: "300" },
+      { name: "twitter:site", content: "@mayks" },
+      {
+        name: "twitter:card",
+        content:
+          "https://res.cloudinary.com/mayks/image/upload/v1653483806/blog-mayks/logo/mspase-logo.png",
+      },
     ],
     link: [
+      {
+        hid: "canonical",
+        rel: "canonical",
+        href: "https://mspase.com",
+      },
       {
         rel: "apple-touch-icon",
         sizes: "180x180",

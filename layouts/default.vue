@@ -3,7 +3,9 @@
   <div class="wrapper">
     <TheHeader class="main-head" />
     <TheNav class="main-nav" />
+    <main>
       <Nuxt class="content"  keep-alive/>
+    </main>
     <TheSideBar class="side"/>
     <TheFooter class="main-footer" />
   </div>

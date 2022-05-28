@@ -2,9 +2,9 @@
 
     <!-- <svg-icon name="share" /> -->
   <article class="box">
-    <!-- <h1 style="text-align: center; margin-bottom: 1rem;">
-      Blog Posts
-    </h1> -->
+    <h1 style="text-align: center; margin-bottom: 1rem;">
+      Последни Новини и Публикации
+    </h1>
     <ul>
       <li v-for="article of articles" :key="article.slug">
         <BlogCard :article="article"/>

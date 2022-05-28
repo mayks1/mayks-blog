@@ -33,14 +33,28 @@
 </template>
 <script>
 import VideoPlayer from 'nuxt-video-player'
+import getSiteMeta from '@/utils/getSiteMeta'
 require('nuxt-video-player/src/assets/css/main.css')
 
 export default {
   components: {
     VideoPlayer
   },
+  computed: {
+    meta() {
+      const metaData = {
+        type: "article",
+        title: this.article.title,
+        description: this.article.description,
+        url: `https://mspase.com/articles/${this.$route.params.slug}`,
+        mainImage: this.article.img,
+      };
+      return getSiteMeta(metaData);
+    }
+  },
   async asyncData({ $content, params }) {
       const article = await $content("articles", params.slug).fetch();
+
       const [prev, next] = await $content("articles")
           .only(["title", "slug", "updatedAt"])
           .sortBy("createdAt", "asc")
@@ -48,6 +62,40 @@ export default {
           .fetch();
       return { article, prev, next };
   },
+  head() {
+    return {
+      title: this.article.title,
+      meta: [
+        ...this.meta,
+        {
+          property: "article:published_time",
+          content: this.article.createdAt,
+        },
+        {
+          property: "article:modified_time",
+          content: this.article.updatedAt,
+        },
+        {
+          property: "article:tag",
+          content: this.article.tags ? this.article.tags.toString() : "",
+        },
+        { name: "twitter:label1", content: "Written by" },
+        { name: "twitter:data1", content: "Mayks" },
+        { name: "twitter:label2", content: "Filed under" },
+        {
+          name: "twitter:data2",
+          content: this.article.tags ? this.article.tags.toString() : "",
+        },
+      ],
+      link: [
+        {
+          hid: "canonical",
+          rel: "canonical",
+          href: `https://mspase.com/articles/${this.$route.params.slug}`,
+        },
+      ],
+    }
+  }
 }
 </script>
 
