@@ -116,6 +116,8 @@ export default {
     "@nuxtjs/robots",
     // Add the Nuxt sitemap module
     "@nuxtjs/sitemap",
+    // Social Sharing Buttons to NuxtJS: https://www.zemna.net/articles/how-to-add-social-sharing-buttons-to-nuxtjs/
+    "vue-social-sharing/nuxt",
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

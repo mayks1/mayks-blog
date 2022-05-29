@@ -18,6 +18,20 @@
           <div class="meta-info">
             <Date :date="article.date"/>
 
+            <ShareNetwork
+              v-for="network in networks"
+              :network="network.network"
+              :key="network.network"
+              :style="{backgroundColor: network.color}"
+              :url="sharing.url"
+              :title="sharing.title"
+              :description="sharing.description"
+              :quote="sharing.quote"
+              :hashtags="sharing.hashtags"
+              :twitterUser="sharing.twitterUser">
+              <svg-icon class="meta-info-icons__small" :name="network.icon" title="Виж в IMDB" />
+            </ShareNetwork>
+
             <div v-if="article.categories[0] === 'филми'" class="meta-info-icons">
 
               <a  :href="article.imdb" target="_blank">
@@ -51,32 +65,9 @@ import VideoPlayer from 'nuxt-video-player'
 import global from '@/utils/global'
 import getSiteMeta from '@/utils/getSiteMeta'
 require('nuxt-video-player/src/assets/css/main.css')
-
 export default {
   components: {
     VideoPlayer
-  },
-  computed: {
-    meta() {
-      const metaData = {
-        type: "article",
-        title: this.article.title,
-        description: this.article.description,
-        url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
-        mainImage: this.article.img,
-      };
-      return getSiteMeta(metaData);
-    }
-  },
-  async asyncData({ $content, params }) {
-      const article = await $content("articles", params.slug).fetch();
-
-      const [prev, next] = await $content("articles")
-          .only(["title", "slug", "updatedAt"])
-          .sortBy("createdAt", "asc")
-          .surround(params.slug)
-          .fetch();
-      return { article, prev, next };
   },
   head() {
     return {
@@ -111,13 +102,70 @@ export default {
         },
       ],
     }
-  }
+  },
+  data() {
+    return {
+      networks: [
+        { network: 'viber', icon: 'viber', color: '#665CAC' },
+        { network: 'facebook', icon: 'facebook', color: '#1877f2' },
+        { network: 'twitter', icon: 'twitter', color: '#1da1f2' },
+        { network: 'messenger', icon: 'messenger', color: '#0084ff' },
+        { network: 'pinterest', icon: 'pinterest', color: '#bd081c' },
+        { network: 'telegram', icon: 'telegram', color: '#0088cc' },
+        { network: 'whatsapp', icon: 'whatsapp', color: '#25d366' },
+      ]
+    }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: "article",
+        title: this.article.title,
+        description: this.article.description,
+        url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
+        mainImage: this.article.img,
+      };
+      return getSiteMeta(metaData);
+    }
+  },
+  async asyncData({ $content, $config, route, params }) {
+      const article = await $content("articles", params.slug).fetch();
+
+      let tags = []
+      if (article.tags) {
+      const tagsList = await $content('tags')
+        .only(['name', 'slug'])
+        .where({ slug: { $containsAny: article.tags } })
+        .fetch()
+      tags = Object.assign({}, ...tagsList.map((s) => ({ [s.name]: s })))
+    }
+
+      const [prev, next] = await $content("articles")
+          .only(["title", "slug", "updatedAt"])
+          .sortBy("createdAt", "asc")
+          .surround(params.slug)
+          .fetch();
+
+      let sharing = {
+        url: $config.baseUrl + route.path,
+        title: '',
+        description: '',
+        quote: '',
+        hashtags: '',
+        twitterUser: 'mayks1'
+      }
+
+      sharing.title = article.title
+      sharing.description = article.description
+      sharing.hashtags = article.tags.toString()
+
+      return { article, prev, next, tags, sharing }
+  },
 }
 </script>
 
 <style>
 @import url("~/assets/css/markdown.css");
-
 .typo .video {
   margin: 15px 0;
 }
@@ -128,11 +176,9 @@ export default {
   margin: 0 auto;
   padding: 15px 15px 10px;
 }
-
 figure {
   margin-bottom: 15px;
 }
-
 figure img {
   width: 100%;
   height: auto;
@@ -140,7 +186,6 @@ figure img {
   object-fit: cover;
   border-radius: 12px;
 }
-
 .meta-title { 
   font-size:2em;
   font-weight:700;
@@ -149,21 +194,18 @@ figure img {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-
 .meta-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .meta-info-icons a {
   vertical-align: middle;
 }
-.meta-info-icons .meta-info-icons__small {
+.meta-info .meta-info-icons__small {
   height: 30px;
   width: 30px;
 }
-
 .meta-info-icons .meta-info-icons__small:first-child {
   margin-right: 20px;
 }
