@@ -27,7 +27,7 @@
             </div>
           </div>
 
-          <div class="solcial-icons">
+          <!-- <div class="solcial-icons">
             <ShareNetwork
               class="meta-info-icons__small"
               v-for="network in networks"
@@ -42,7 +42,7 @@
               :twitterUser="sharing.twitterUser">
               <svg-icon class="meta-info-icons__small" :name="network.icon" title="Виж в IMDB" />
             </ShareNetwork>
-          </div>
+          </div> -->
 
           <h1 class="meta-title">
             {{ article.title }}
