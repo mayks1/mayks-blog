@@ -5,6 +5,7 @@ img: https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies
 alt: сериал La Foret – Гората
 imdb: https://www.imdb.com/title/tt6560040/?ref_=ext_shr_lnk
 subs: http://mayks.bg.cm/subtitles/la-foret/La-foret-S01.zip
+rating: 7.2 / 10
 categories:
   - филми
 tags:

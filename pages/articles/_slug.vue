@@ -21,6 +21,7 @@
               <a  :href="article.imdb" target="_blank">
                 <svg-icon class="meta-info-icons__small" name="imdb" title="Виж в IMDB" />
               </a>
+              <span>{{ article.rating }}</span>
               <a class="meta-info-icons__small" :href="article.subs" target="_blank">
                 <img class="meta-info-icons__small" src="~assets/img/subtitles.png" alt="Свали Български Субтитри" title="Свали Български Субтитри">
               </a>
@@ -205,6 +206,9 @@ figure img {
   justify-content: space-between;
   align-items: center;
 }
+.meta-info span {
+  color: var(--pink);
+}
 .meta-info-icons a {
   vertical-align: middle;
 }
@@ -213,6 +217,7 @@ figure img {
   width: 30px;
 }
 .meta-info-icons .meta-info-icons__small:first-child {
-  margin-right: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 </style>
