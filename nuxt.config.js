@@ -111,7 +111,12 @@ export default {
   },
   // The tracking ID of your Google Analytics account.
   googleAnalytics: {
-    id: "G-X94HZZX6BZ",
+    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    },
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
