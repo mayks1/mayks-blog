@@ -14,7 +14,15 @@ export default {
       lang: "bg-BG",
       // prefix: "og: http://ogp.me/ns#",
     },
+    script: [
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-5P4ZK4W8C9",
+        async: true,
+      },
+      { src: "/js/analitics.js" },
+    ],
     title: global.siteTitle,
+
     meta: [
       {
         name: "google-site-verification",
@@ -110,8 +118,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    "@nuxtjs/google-analytics",
-    // https://go.nuxtjs.dev/content
     "@nuxt/content",
     // A Nuxt.js module thats inject a middleware to generate a robots.txt
     "@nuxtjs/robots",
@@ -120,10 +126,6 @@ export default {
     // Social Sharing Buttons to NuxtJS: https://www.zemna.net/articles/how-to-add-social-sharing-buttons-to-nuxtjs/
     "vue-social-sharing/nuxt",
   ],
-  googleAnalytics: {
-    id: "UA-230151188-1",
-  },
-
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     markdown: {
