@@ -4,7 +4,7 @@ description: Този френски сериал La Forêt – Гората е 
 img: https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-1_agt3xw_vrtcxp.webp
 alt: сериал La Foret – Гората
 imdb: https://www.imdb.com/title/tt6560040/?ref_=ext_shr_lnk
-subs: https://www.dropbox.com/s/ay657wmb35lcs5q/La-foret-S01.zip?dl=0
+subs: http://mayks.bg.cm/subtitles/la-foret/La-foret-S01.zip
 categories:
   - филми
 tags:
@@ -52,4 +52,4 @@ status: publish
 
 #### Български Машинни субтитри:
 
--   [Субтитри за сериала La Forêt – Сезон 1](https://www.dropbox.com/s/ay657wmb35lcs5q/La-foret-S01.zip?dl=0)
+-   [Субтитри за сериала La Forêt – Сезон 1](http://mayks.bg.cm/subtitles/la-foret/La-foret-S01.zip)

@@ -4,7 +4,7 @@ description: From - сериал на компанията EPIX разкрива
 img: https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-main_atkv2j.webp
 alt: Сериалът - From - мистерията на един кошмарен град в Средна Америка
 imdb: https://www.imdb.com/title/tt9813792/?ref_=ext_shr_lnk
-subs: https://www.dropbox.com/s/w958p6pmijwpo8m/From.S01.COMPLETE.720p.AMZN_.WEBRip.x264-GalaxyTVTGx.zip?dl=0
+subs: http://mayks.bg.cm/subtitles/from/From.S01.COMPLETE.720p.AMZN_.WEBRip.x264-GalaxyTVTGx.zip
 rating: 7.6 / 10
 categories:
   - филми
@@ -57,4 +57,4 @@ status: publish
 
 Камбаната бие за прибиране в къщи!!!  
 
-[Машинни субтитри за сериала From - Сезон 1](https://www.dropbox.com/s/w958p6pmijwpo8m/From.S01.COMPLETE.720p.AMZN_.WEBRip.x264-GalaxyTVTGx.zip?dl=0)
+[Машинни субтитри за сериала From - Сезон 1](http://mayks.bg.cm/subtitles/from/From.S01.COMPLETE.720p.AMZN_.WEBRip.x264-GalaxyTVTGx.zip)
