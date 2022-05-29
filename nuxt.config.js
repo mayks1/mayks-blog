@@ -121,7 +121,7 @@ export default {
     "vue-social-sharing/nuxt",
   ],
   googleAnalytics: {
-    id: "G-5P4ZK4W8C9",
+    id: "UA-230151188-1",
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
