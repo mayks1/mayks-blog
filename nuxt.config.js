@@ -91,8 +91,6 @@ export default {
     "@nuxtjs/svg-sprite",
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
-    // https://google-analytics.nuxtjs.org/
-    "@nuxtjs/google-analytics",
   ],
 
   fontLoader: {
@@ -109,18 +107,10 @@ export default {
       lang: "bg",
     },
   },
-  // The tracking ID of your Google Analytics account.
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID,
-    },
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    "@nuxtjs/google-analytics",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
     // A Nuxt.js module thats inject a middleware to generate a robots.txt
@@ -130,6 +120,9 @@ export default {
     // Social Sharing Buttons to NuxtJS: https://www.zemna.net/articles/how-to-add-social-sharing-buttons-to-nuxtjs/
     "vue-social-sharing/nuxt",
   ],
+  googleAnalytics: {
+    id: "G-5P4ZK4W8C9",
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
