@@ -20,6 +20,12 @@ export default {
         async: true,
       },
       { src: "/js/analitics.js" },
+      // Google Add Sense - Реклами
+      {
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8365005414967197",
+        async: true,
+        crossorigin: "anonymous",
+      },
     ],
     title: global.siteTitle,
 

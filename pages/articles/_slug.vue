@@ -17,8 +17,19 @@
 
           <div class="meta-info">
             <Date :date="article.date"/>
+            <div v-if="article.categories[0] === 'филми'" class="meta-info-icons">
+              <a  :href="article.imdb" target="_blank">
+                <svg-icon class="meta-info-icons__small" name="imdb" title="Виж в IMDB" />
+              </a>
+              <a class="meta-info-icons__small" :href="article.subs" target="_blank">
+                <img class="meta-info-icons__small" src="~assets/img/subtitles.png" alt="Свали Български Субтитри" title="Свали Български Субтитри">
+              </a>
+            </div>
+          </div>
 
+          <div class="solcial-icons">
             <ShareNetwork
+              class="meta-info-icons__small"
               v-for="network in networks"
               :network="network.network"
               :key="network.network"
@@ -31,18 +42,6 @@
               :twitterUser="sharing.twitterUser">
               <svg-icon class="meta-info-icons__small" :name="network.icon" title="Виж в IMDB" />
             </ShareNetwork>
-
-            <div v-if="article.categories[0] === 'филми'" class="meta-info-icons">
-
-              <a  :href="article.imdb" target="_blank">
-                <svg-icon class="meta-info-icons__small" name="imdb" title="Виж в IMDB" />
-              </a>
-              <a class="meta-info-icons__small" :href="article.subs" target="_blank">
-                <img class="meta-info-icons__small" src="~assets/img/subtitles.png" alt="Свали Български Субтитри" title="Свали Български Субтитри">
-              </a>
-
-            </div>
-            
           </div>
 
           <h1 class="meta-title">
@@ -177,6 +176,7 @@ export default {
   padding: 15px 15px 10px;
 }
 figure {
+  position: relative;
   margin-bottom: 15px;
 }
 figure img {
@@ -186,6 +186,12 @@ figure img {
   object-fit: cover;
   border-radius: 12px;
 }
+
+.solcial-icons {
+  display: flex;
+  flex-direction: column;
+}
+
 .meta-title { 
   font-size:2em;
   font-weight:700;
