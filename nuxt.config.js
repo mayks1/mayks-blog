@@ -91,6 +91,8 @@ export default {
     "@nuxtjs/svg-sprite",
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
+    // https://google-analytics.nuxtjs.org/
+    "@nuxtjs/google-analytics",
   ],
 
   fontLoader: {
@@ -106,6 +108,10 @@ export default {
     manifest: {
       lang: "bg",
     },
+  },
+  // The tracking ID of your Google Analytics account.
+  googleAnalytics: {
+    id: "G-X94HZZX6BZ",
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
