@@ -376,7 +376,7 @@ table tr td :last-child {
   text-align: right;
 }
 /* Code Section */
-.typo code, tt {
+/* .typo code, tt {
    margin: 0 2px;
    padding: 0 5px;
    white-space: nowrap;
@@ -407,7 +407,7 @@ table tr td :last-child {
    border-radius: 3px; }
 .typo pre code, pre tt {
    background-color: transparent;
-   border: none; }
+   border: none; } */
 /* End of Code Section */
 .typo sup {
   font-size: 0.83em;

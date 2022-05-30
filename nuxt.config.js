@@ -133,11 +133,11 @@ export default {
   ],
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
-    // markdown: {
-    //   prism: {
-    //     theme: "prism-themes/themes/prism-a11y-dark.css",
-    //   },
-    // },
+    markdown: {
+      prism: {
+        theme: "prism-themes/themes/prism-a11y-dark.css",
+      },
+    },
     nestedProperties: ["author.name"],
   },
 

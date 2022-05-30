@@ -171,6 +171,11 @@ export default {
 
 <style>
 @import url("~/assets/css/markdown.css");
+
+.typo .nuxt-content-highlight {
+  display: grid;
+}
+
 .typo .video {
   margin: 15px 0;
 }
