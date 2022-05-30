@@ -65,14 +65,19 @@ import VideoPlayer from 'nuxt-video-player'
 import global from '@/utils/global'
 import getSiteMeta from '@/utils/getSiteMeta'
 require('nuxt-video-player/src/assets/css/main.css')
+
 export default {
   components: {
     VideoPlayer
   },
   head() {
     return {
+      htmlAttrs: {
+        lang: this.article.lang ? this.article.lang: 'bg-BG'
+      },
       title: this.article.title,
       meta: [
+
         ...this.meta,
         {
           property: "article:published_time",

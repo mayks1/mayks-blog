@@ -15,6 +15,7 @@ export default {
       // prefix: "og: http://ogp.me/ns#",
     },
     script: [
+      // Google Analytics Code
       {
         src: "https://www.googletagmanager.com/gtag/js?id=G-5P4ZK4W8C9",
         async: true,
@@ -36,7 +37,6 @@ export default {
       },
       ...meta,
       { charset: "utf-8" },
-      { name: "language", content: "bulgarian" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { property: "og:site_name", content: global.siteName || "" },
       {
@@ -116,11 +116,11 @@ export default {
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: "bg",
-    },
-  },
+  // pwa: {
+  //   manifest: {
+  //     lang: "bg",
+  //   },
+  // },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
