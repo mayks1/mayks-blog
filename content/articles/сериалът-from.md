@@ -21,7 +21,7 @@ status: publish
 ##### IMDb RATING: 7.6/10 
 
 <div class="video">
-  <video-player src="https://imdb-video.media-imdb.com/vi930923289/1434659607842-pgv4ql-1645222936963.mp4?Expires=1653833853&Signature=r0N9jt3K5nFwqc7qugWGpjGP9Y5HHJUmAoitIsyyC0cTIU8eIQA-nIuE2ty8DjmFHZHxsJKRnIxQEh9aFK0Aw5tbrTptj4q2byCM-IRPdcRXkF~z~~mfL0nuK1~lsOuveIdy3JyMruo6Gj6xxqbNdS0PKkbR9Ba9~SjKYNd1sr-qdnAam05X-IwNsGwesAob9PNtj2olzzKWv61ExTxzW4pGs4MM1iNQ7nGRVLpaVxMgqfl4kvkjjj5YsSXPTqWQW60dI5l5VhwxNfLJkJNVijF-yuzadsb4vQ5wbVgzDkO5vL3oOlYvk2wVsSH7VJaubAN76ymZEepYYhJU0xgYhg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"/>
+  <video-player src="https://www.youtube.com/embed/pDHqAj4eJcM?controls=0" />
 </div>
 
 Премиерата на поредицата на From е най-гледаната премиера на оригиналния сериал на Epix в историята на мрежата, собственост на Amazon. Това вторият най-гледан сериал на Epix след спечелили я награда "Еми", Кръстникът на Харлем ([Godfather of Harlem](https://www.imdb.com/title/tt8080122/)).
