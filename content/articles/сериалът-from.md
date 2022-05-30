@@ -18,8 +18,6 @@ status: publish
 
 ## Сериалът - From - е един от най добрите сериали за 2022 г.
 
-##### IMDb RATING: 7.6/10 
-
 <div class="video">
   <video-player src="https://www.youtube.com/embed/pDHqAj4eJcM?controls=0" />
 </div>
