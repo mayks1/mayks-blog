@@ -16,6 +16,13 @@
 
 <script>
   export default {
+    head() {
+      return {
+          htmlAttrs: {
+            lang: 'bg-BG'
+          },
+      }
+    },  
     async asyncData({ $content, params }) {
         const articles = await $content("articles")
             .only(["title", "description", "img", "alt", "slug", "categories", "date"])

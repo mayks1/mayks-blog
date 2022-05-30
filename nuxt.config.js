@@ -11,8 +11,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
-      lang: "bg-BG",
-      // prefix: "og: http://ogp.me/ns#",
+      lang: "bg",
     },
     script: [
       // Google Analytics Code
@@ -116,11 +115,11 @@ export default {
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  // pwa: {
-  //   manifest: {
-  //     lang: "bg",
-  //   },
-  // },
+  pwa: {
+    // manifest: {
+    //   lang: "bg",
+    // },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -134,11 +133,11 @@ export default {
   ],
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
-    markdown: {
-      prism: {
-        theme: "prism-themes/themes/prism-material-oceanic.css",
-      },
-    },
+    // markdown: {
+    //   prism: {
+    //     theme: "prism-themes/themes/prism-a11y-dark.css",
+    //   },
+    // },
     nestedProperties: ["author.name"],
   },
 
