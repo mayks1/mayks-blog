@@ -13,7 +13,11 @@ status: publish
 ## It's like meeting on a train platform, a miracle?
 
 ### ABOUT Caitlin Koch
-## Caitlin Koch is a Nashville:
+<div class="video">
+  <video-player src="https://www.youtube.com/embed/DDqk0PBv0ok" title="Caitlin Koch - Creep | Radiohead (Cover)"/>
+</div>
+
+#### Caitlin Koch is a Nashville:
 - Based Retro Soul artist, singer & songwriter best known for her performances as the singing rugby coach on Simon Cowell's production, The X Factor USA
 
 
