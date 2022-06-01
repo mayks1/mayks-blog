@@ -8,7 +8,7 @@ categories:
 tags:
   - история
   - крими
-date: 30 май 2022г.
+date: 30.05.2022г.
 status: publish
 ---
 
