@@ -10,6 +10,7 @@ tags:
   - code
   - nuxt
   - analytics
+number: 5
 date: 30.05.2022г.
 status: publish
 ---

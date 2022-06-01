@@ -2,7 +2,7 @@
 title: Candy - сериал на Hulu
 description: Candy - сериал на компанията Hulu. Джесика Бийл се превъплащава в убиец, в сериала пресъздаващ истинската история за Канди Монтгомъри и нейната жертва Бети Гор, разтърсила Тексас в началото на 80-те.
 img: https://res.cloudinary.com/mayks/image/upload/v1654102583/blog-mayks/movies/candy/candy_1_s4ukoz.jpg
-alt: Candy - сериал на Hulu с Джесика Бийл
+alt: Джесика Бийл в Сериала Candy
 imdb: https://www.imdb.com/title/tt13729648/
 subs: http://mayks.bg.cm/subtitles/candy/Candy%20S01%20Complete%20Season%201%201080p%20WEBRip%20AAC5.1%20x264-HODL.zip
 rating: 7.3 / 10
@@ -12,6 +12,7 @@ tags:
   - филми
   - сериали
   - крими
+number: 7
 date: 01.06.2022г.
 status: publish
 ---
@@ -37,9 +38,9 @@ status: publish
     Позната ни от сериала "Двама мъже и половина"
 -   [Pablo Schreiber](https://www.imdb.com/name/nm1032567/?ref_=tt_ov_st)
 
-| ![](https://res.cloudinary.com/mayks/image/upload/v1654098766/blog-mayks/movies/candy/candy_7_rrl6rt.jpg) | ![](https://res.cloudinary.com/mayks/image/upload/v1654098766/blog-mayks/movies/candy/candy_9_iahasj.jpg) |
+| ![Melanie Lynskey and Jessica Biel in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098766/blog-mayks/movies/candy/candy_7_rrl6rt.jpg) | ![Jessica Biel in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098766/blog-mayks/movies/candy/candy_9_iahasj.jpg) |
 |--|--|
-|![](https://res.cloudinary.com/mayks/image/upload/v1654098765/blog-mayks/movies/candy/candy_4_f3jpxr.jpg)  | ![](https://res.cloudinary.com/mayks/image/upload/v1654098766/blog-mayks/movies/candy/candy_6_bsuekd.jpg) |
+|![Melanie Lynskey and Jessica Biel in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098765/blog-mayks/movies/candy/candy_4_f3jpxr.jpg)  | ![Melanie Lynskey and Pablo Schreiber in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098766/blog-mayks/movies/candy/candy_6_bsuekd.jpg) |
 
 #### Историята:
 
@@ -63,8 +64,8 @@ status: publish
 
 И съпрузите на Джесика Бийл и Мелани Лински имат роли в сериала. Джъстин Тимбърлейк и Джейсън Ритър играят полицаи.
 
-| ![](https://res.cloudinary.com/mayks/image/upload/v1654098758/blog-mayks/movies/candy/candy_2_nfbj9v.jpg) | ![](https://res.cloudinary.com/mayks/image/upload/v1654098758/blog-mayks/movies/candy/candy_8_i71zjt.jpg) |
+| ![Jessica Biel in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098758/blog-mayks/movies/candy/candy_2_nfbj9v.jpg) | ![Jessica Biel, Jessie Mueller, and Timothy Simons in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098758/blog-mayks/movies/candy/candy_8_i71zjt.jpg) |
 |--|--|
-|![](https://res.cloudinary.com/mayks/image/upload/v1654098757/blog-mayks/movies/candy/candy_5_d4duts.jpg)  | ![](https://res.cloudinary.com/mayks/image/upload/v1654098740/blog-mayks/movies/candy/candy_3_i9oued.jpg) |
+|![Justin Timberlake in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098757/blog-mayks/movies/candy/candy_5_d4duts.jpg)  | ![Jessica Biel in Candy (2022)](https://res.cloudinary.com/mayks/image/upload/v1654098740/blog-mayks/movies/candy/candy_3_i9oued.jpg) |
 
 [Машинни субтитри за сериала Candy](http://mayks.bg.cm/subtitles/candy/Candy%20S01%20Complete%20Season%201%201080p%20WEBRip%20AAC5.1%20x264-HODL.zip)
