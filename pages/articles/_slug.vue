@@ -1,6 +1,22 @@
 <template>
 <article  class="box">
     <div class="blog-post">
+      <div class="solcial-icons">
+          <ShareNetwork
+            class="meta-info-icons__small"
+            v-for="network in networks"
+            :network="network.network"
+            :key="network.network"
+            :style="{backgroundColor: network.color}"
+            :url="sharing.url"
+            :title="sharing.title"
+            :description="sharing.description"
+            :quote="sharing.quote"
+            :hashtags="sharing.hashtags"
+            :twitterUser="sharing.twitterUser">
+            <svg-icon class="meta-info-icons__small" :name="network.icon" :title="`Сподели в ${network.network}`" />
+          </ShareNetwork>
+        </div>
       <header>
          <!-- <nav>
             <ul>
@@ -27,23 +43,6 @@
               </a>
             </div>
           </div>
-
-          <!-- <div class="solcial-icons">
-            <ShareNetwork
-              class="meta-info-icons__small"
-              v-for="network in networks"
-              :network="network.network"
-              :key="network.network"
-              :style="{backgroundColor: network.color}"
-              :url="sharing.url"
-              :title="sharing.title"
-              :description="sharing.description"
-              :quote="sharing.quote"
-              :hashtags="sharing.hashtags"
-              :twitterUser="sharing.twitterUser">
-              <svg-icon class="meta-info-icons__small" :name="network.icon" title="Виж в IMDB" />
-            </ShareNetwork>
-          </div> -->
 
           <h1 class="meta-title">
             {{ article.title }}
@@ -181,13 +180,14 @@ export default {
 }
 .blog-post {
   width: 100%;
+  position: relative;
   background-color: var(--white);
   border-radius: 15px;
   margin: 0 auto;
   padding: 15px 15px 10px;
 }
 figure {
-  position: relative;
+  /* position: relative; */
   margin-bottom: 15px;
 }
 figure img {
@@ -201,6 +201,10 @@ figure img {
 .solcial-icons {
   display: flex;
   flex-direction: column;
+  position:absolute;
+  z-index: 100;
+  top: 45px;
+  left: 20px;
 }
 
 .meta-title { 
@@ -222,9 +226,10 @@ figure img {
 .meta-info-icons a {
   vertical-align: middle;
 }
-.meta-info .meta-info-icons__small {
+.meta-info-icons__small {
   height: 30px;
   width: 30px;
+  margin-bottom: 10px;
 }
 .meta-info-icons .meta-info-icons__small:first-child {
   margin-right: 5px;
