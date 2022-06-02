@@ -194,6 +194,7 @@ figure img {
   width: 100%;
   height: auto;
   max-height: 400px;
+  min-height: 350px;
   object-fit: cover;
   border-radius: 12px;
 }
