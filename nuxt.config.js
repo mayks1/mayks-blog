@@ -7,6 +7,7 @@ const meta = getSiteMeta();
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
+  // ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -115,11 +116,7 @@ export default {
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    // manifest: {
-    //   lang: "bg",
-    // },
-  },
+  // pwa: {},
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -153,7 +150,11 @@ export default {
   publicRuntimeConfig: {
     baseUrl: process.env.BASE_URL || "http://localhost:3000",
   },
+
   generate: {
-    fallback: true,
+    // fallback: true,
+    routes() {
+      return getRoutes();
+    },
   },
 };

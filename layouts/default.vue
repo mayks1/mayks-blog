@@ -4,7 +4,8 @@
     <TheHeader class="main-head" />
     <TheNav class="main-nav" />
     <main>
-      <Nuxt class="content"  keep-alive/>
+      <!-- <Nuxt class="content"  keep-alive/> -->
+      <Nuxt class="content"/>
     </main>
     <TheSideBar class="side"/>
     <TheFooter class="main-footer" />
@@ -18,6 +19,7 @@ import TheFooter from "~/components/layouts/TheFooter"
 import TheSideBar from "~/components/layouts/TheSideBar"
 
 export default {
+  name: 'MainLayout',
   components: {
     TheHeader,
     TheNav,

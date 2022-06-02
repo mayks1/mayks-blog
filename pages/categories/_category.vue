@@ -2,7 +2,7 @@
   <article class="box">
     <div class="category-container">
 
-      <h1 >Категория: <span>{{ category.name }}</span> </h1>
+      <h1 >Категория: <span>{{ $route.params.category }}</span> </h1>
       <p class="line-after">{{ category.description}}</p>
 
       <ul>
@@ -23,23 +23,55 @@
 
 <script>
 export default {
+  name: 'CategoryPage',
+
   async asyncData({ $content, params }) {
-    const category = await $content('categories', params.slug)
+     const category = await $content('categories', params.category)
       .only(['name', 'description'])
       // .where({ slug: { $contains: params.category } })
-      .limit(1)
-      .sortBy('createdAt', 'desc')
       .fetch()
-    // const category = categories.length > 0 ? categories[0] : {}
+
     const articles = await $content('articles')
       .only(['title', 'description', 'slug'])
-      .where({ categories: { $contains: params.slug } })
+      .where({ categories: { $contains: params.category } })
       .fetch()
+
+    // const articlesByCategory = articles.filter((article) => {
+    //   const articleCategories = article.category.map((x) => x.toLowerCase());
+    //   return articleCategories.includes(params.category);
+    // });
+    // const category = categories.length > 0 ? categories[0] : {}
+    // const articles = await $content('articles')
+    //   .only(['title', 'description', 'slug'])
+    //   .where({ categories: { $contains: params.slug } })
+    //   .fetch()
     return {
       articles,
       category
     }
-  }
+  },
+
+   methods: {
+      captialise(text) {
+        return text.charAt(0).toUpperCase() + text.slice(1);
+      },
+    },
+    head() {
+      return {
+        title: `Статии с Категория - ${this.captialise(this.$route.params.category)}`,
+        meta: [
+          { hid: "description", name: "description", content: this.category.description },
+        ],
+        
+        link: [
+          {
+            hid: 'canonical',
+            rel: 'canonical',
+            href: `${this.$config.baseUrl}/categories/${this.$route.params.category}`,
+          },
+        ],
+      };
+    },
 }
 </script>
 <style scoped>
