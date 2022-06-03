@@ -16,9 +16,6 @@
 
 <script>
 export default {
-    components: {
-      VueIfBot
-    },
     data() {
         return {
             backgroundButton: '#E84E89',
