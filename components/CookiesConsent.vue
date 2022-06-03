@@ -40,5 +40,3 @@ export default {
     color: var(--pink);
 }
 </style>
-
-box-shadow: 5px 5px 6px -2px rgba(0,0,0,0.53);
