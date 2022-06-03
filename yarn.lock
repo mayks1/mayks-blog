@@ -1396,6 +1396,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@norvikit/vue-cookies-consent@npm:^1.0.11":
+  version: 1.0.11
+  resolution: "@norvikit/vue-cookies-consent@npm:1.0.11"
+  dependencies:
+    core-js: ^3.8.3
+    js-cookie: ^3.0.1
+    vue: ^2.6.14
+  peerDependencies:
+    vue: ^2.6.14
+  checksum: ea1424ea7504eebbd6c3432d6d365aeaacab79beb24d473e2bb70735d153596a3f6f0376f923b1df9cde4902b5d0715b7a678dc297bb4d51fcd038114241c109
+  languageName: node
+  linkType: hard
+
 "@npmcli/fs@npm:^1.0.0":
   version: 1.1.1
   resolution: "@npmcli/fs@npm:1.1.1"
@@ -4226,6 +4239,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.8.3":
+  version: 3.22.8
+  resolution: "core-js@npm:3.22.8"
+  checksum: c79bcfea37920a5da880ad1fc8336355e833c83998bb28cd45cc59eef4d9824dd8d59ccd24d6b18ff88f284d53d9eef021ddbd2b5ab1c6305b01e98c1402e510
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -7048,6 +7068,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-cookie@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "js-cookie@npm:3.0.1"
+  checksum: bb48de67e2a6bd1ae3dfd6b2d5a167c33dd0c5a37e909206161eb0358c98f17cb55acd55827a58e9eea3630d89444e7479f7938ef4420dda443218b8c434a4c3
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -8116,6 +8143,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mspase-blog@workspace:."
   dependencies:
+    "@norvikit/vue-cookies-consent": ^1.0.11
     "@nuxt/content": ^1.15.1
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/robots": ^2.5.0
