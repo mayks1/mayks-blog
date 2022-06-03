@@ -1,21 +1,27 @@
 <template>
-  <client-only>
-    <vue-cookies-consent 
-        :background-button="backgroundButton"
-        :background-window="backgroundWindow"
-    >
-      <template #title>{{ title}}</template>
-      <template #description>
-        <p>{{ description}}</p>
-        <a href="https://policies.google.com/technologies/cookies?hl=bg" target="_blank"><p>НАУЧЕТЕ ПОВЕЧЕ</p></a>
-      </template>
-      <template #button>OK</template>
-    </vue-cookies-consent>
-  </client-only>
+  <vue-if-bot>
+    <client-only>
+      <vue-cookies-consent 
+          :background-button="backgroundButton"
+          :background-window="backgroundWindow"
+      >
+        <template #title>{{ title}}</template>
+        <template #description>
+          <p>{{ description}}</p>
+          <a href="https://policies.google.com/technologies/cookies?hl=bg" target="_blank"><p>НАУЧЕТЕ ПОВЕЧЕ</p></a>
+        </template>
+        <template #button>OK</template>
+      </vue-cookies-consent>
+    </client-only>
+  </vue-if-bot>
 </template>
 
 <script>
+import VueIfBot from 'vue-if-bot'
 export default {
+    components: {
+      VueIfBot
+    },
     data() {
         return {
             backgroundButton: '#E84E89',

@@ -8155,6 +8155,7 @@ __metadata:
     nuxt-video-player: ^1.0.17
     prism-themes: ^1.9.0
     vue: ^2.6.14
+    vue-if-bot: ^1.2.0
     vue-server-renderer: ^2.6.14
     vue-social-sharing: ^3.0.9
     vue-template-compiler: ^2.6.14
@@ -12268,6 +12269,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-if-bot@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "vue-if-bot@npm:1.2.0"
+  dependencies:
+    vue: ^2.5.16
+  checksum: 1f5744f214da34bcb74225001932cece8767607d6c475039ff4dd8a8bb199d03d41c064383399b0ff0245d593cec1ee011df1f26fb244fab2c049b0f46567254
+  languageName: node
+  linkType: hard
+
 "vue-loader@npm:^15.9.7":
   version: 15.9.8
   resolution: "vue-loader@npm:15.9.8"
@@ -12364,7 +12374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^2.6.11, vue@npm:^2.6.12, vue@npm:^2.6.14":
+"vue@npm:^2.5.16, vue@npm:^2.6.11, vue@npm:^2.6.12, vue@npm:^2.6.14":
   version: 2.6.14
   resolution: "vue@npm:2.6.14"
   checksum: 23524a1bdca094d62cb3491a46317eed75184b5d61d28fa846ea5d2b241c1cc7084fc67ee259d47a50a6d0bbc33ecaceb7bb52bff81312fe7da07263f3419942
