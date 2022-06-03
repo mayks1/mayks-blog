@@ -1,5 +1,4 @@
 <template>
-  <vue-if-bot>
     <client-only>
       <vue-cookies-consent 
           :background-button="backgroundButton"
@@ -13,11 +12,9 @@
         <template #button>OK</template>
       </vue-cookies-consent>
     </client-only>
-  </vue-if-bot>
 </template>
 
 <script>
-import VueIfBot from 'vue-if-bot'
 export default {
     components: {
       VueIfBot
