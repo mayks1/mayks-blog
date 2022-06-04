@@ -20,8 +20,8 @@
         </NuxtLink>
         <p>{{ article.description }}</p>
         <Button 
-          text="Продължи да четеш" 
           :to="`/articles/${article.slug}`"
+          text="Продължи да четеш" 
         />
       </div>
     </div>

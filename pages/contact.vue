@@ -72,16 +72,13 @@
                     rows="10"
                     placeholder="СЪОБЩЕНИЕ / MESSAGE"
                   ></textarea>
-                  <!-- <input class="app-form-control" placeholder="MESSAGE" /> -->
                 </div>
                 <div class="app-form-group buttons">
-                  <button
+                  <Button 
                     type="submit"
                     value="Send message"
-                    class="app-form-button"
-                  >
-                    ИЗПРАТИ / SEND
-                  </button>
+                    text="ИЗПРАТИ / SEND"
+                  />
                 </div>
               </form>
             </div>
@@ -93,27 +90,29 @@
 </template>
 
 <script>
+import Button from '~/components/Button.vue'
 export default {
-  name: "ContacFtorm",
-  head() {
-    return {
-      title: "MSpase - Контактна Форма",
-      meta: [
-        {
-            hid: "description",
-            name: "description",
-            content: "Може да зададете Вашите въпроси в Нашата Контактна Форма",
-        },
-      ],
-      link: [
-        {
-          hid: "canonical",
-          rel: "canonical",
-          href: `${this.$config.baseUrl}/contact`,
-        },
-      ],
-    }
-  }
+    name: "ContacFtorm",
+    head() {
+        return {
+            title: "MSpase - Контактна Форма",
+            meta: [
+                {
+                    hid: "description",
+                    name: "description",
+                    content: "Може да зададете Вашите въпроси в Нашата Контактна Форма",
+                },
+            ],
+            link: [
+                {
+                    hid: "canonical",
+                    rel: "canonical",
+                    href: `${this.$config.baseUrl}/contact`,
+                },
+            ],
+        };
+    },
+    components: { Button }
 }
 </script>
 
@@ -281,7 +280,7 @@ export default {
   border-bottom-color: #ddd;
 }
 /* ------------------------------------------- */
-.app-form-button {
+/* .app-form-button {
 	box-shadow:inset 0px 1px 0px 0px #f5978e;
 	background:linear-gradient(to bottom, #e84e89 5%, #ed2f78 100%);
 	background-color:#e84e89;
@@ -304,7 +303,7 @@ export default {
 .app-form-button:active {
 	position:relative;
 	top:1px;
-}
+} */
 
 /* ---------------------------------------------- */
 .credits {
