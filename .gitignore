@@ -1,6 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
+#/pages/indexnow.vue
+
 /logs
 *.log
 npm-debug.log*
