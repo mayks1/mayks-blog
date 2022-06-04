@@ -266,8 +266,7 @@ export default {
   border: none;
   border-bottom: 1px solid #666;
   color: var(--black);
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 16px;
   outline: none;
   transition: border-color 0.2s;
 }
