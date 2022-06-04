@@ -23,13 +23,13 @@
           <div class="screen-body">
             <div class="screen-body-item left">
               <div class="app-title">
-                <span>ВРЪЗКА</span>
-                <span>С НАС</span>
+                <span>ВРЪЗКА С НАС</span>
+                <!-- <span>С НАС</span> -->
               </div>
 
               <div class="app-title">
-                <span>CONTACT</span>
-                <span>US</span>
+                <span>CONTACT US</span>
+                <!-- <span>US</span> -->
               </div>
 
               <!-- <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div> -->
@@ -216,8 +216,10 @@ export default {
 }
 
 .screen-body-item.left {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
 
 .app-title {
@@ -225,7 +227,7 @@ export default {
   flex-direction: column;
   position: relative;
   color: var(--black);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-size: 26px;
 }
 
@@ -278,8 +280,35 @@ export default {
 .app-form-control:focus {
   border-bottom-color: #ddd;
 }
-
+/* ------------------------------------------- */
 .app-form-button {
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #e84e89 5%, #ed2f78 100%);
+	background-color:#e84e89;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.app-form-button:hover {
+	background:linear-gradient(to bottom, #ed2f78 5%, #e84e89 100%);
+	background-color:#ed2f78;
+}
+.app-form-button:active {
+	position:relative;
+	top:1px;
+}
+
+/* ---------------------------------------------- */
+
+/* .app-form-button {
   background: none;
   border: none;
   color: #ea1d6f;
@@ -290,7 +319,7 @@ export default {
 
 .app-form-button:hover {
   color: #b9134f;
-}
+} */
 
 .credits {
   display: flex;
