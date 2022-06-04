@@ -151,7 +151,7 @@ export default {
   height: 3px;
   margin-left: 2px;
   border-radius: 8px;
-  background: #999;
+  background: var(--white);
 }
 
 .screen-body {
