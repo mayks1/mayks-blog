@@ -39,12 +39,12 @@ export default {
     async sendData() {
  
         await axios.get(`https://api.indexnow.org/indexnow?url=${this.newUrl}&key=14043d5103c44fdea7b394163e2898aa`,
-        // { headers: {
-        //       'Content-Type': 'application/json; charset=UTF-8',
-        //       "Access-Control-Allow-Origin": '*',
-        //       "crossDomain": true
-        //   }
-        // },
+        { headers: {
+              'Content-Type': 'application/json; charset=UTF-8',
+              "Access-Control-Allow-Origin": '*',
+              "crossDomain": true
+          }
+        },
           // { crossDomain: true }
         )
         .then(function (response) {

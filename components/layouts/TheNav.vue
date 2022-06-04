@@ -10,7 +10,7 @@
         <nuxt-link to="#">Категории</nuxt-link>
       </li> -->
       <li>
-        <nuxt-link to="#">Контакт</nuxt-link>
+        <nuxt-link to="/contact">Контакт</nuxt-link>
       </li>
     </ul>
     <!-- <AppSearchInput /> -->
