@@ -218,7 +218,7 @@ export default {
 .screen-body-item.left {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -307,20 +307,6 @@ export default {
 }
 
 /* ---------------------------------------------- */
-
-/* .app-form-button {
-  background: none;
-  border: none;
-  color: #ea1d6f;
-  font-size: 14px;
-  cursor: pointer;
-  outline: none;
-}
-
-.app-form-button:hover {
-  color: #b9134f;
-} */
-
 .credits {
   display: flex;
   justify-content: center;
