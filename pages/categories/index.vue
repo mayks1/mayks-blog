@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="flex justify-center">
-      <h2
+      <h1
         class="text-center text-3xl mb-4 uppercase bg-black text-white inline-block mx-auto px-2"
       >
         Всички Категории
-      </h2>
+      </h1>
     </div>
     <ul>
       <li v-for="category in categories" :key="category" class="text-center mb-2">

@@ -80,13 +80,13 @@ export default {
 
 .form-background {
   display: flex;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .form-container {
   flex: 0 1 700px;
   margin: auto;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .form-screen {
