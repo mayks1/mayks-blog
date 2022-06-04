@@ -38,10 +38,10 @@ export default {
   methods: {
     async sendData() {
  
-        await axios.post(`https://api.indexnow.org/indexnow?url=${this.newUrl}&key=e2442b4a963e4b1a9bb0bfd7af405e70`,
+        await axios.post(`https://api.indexnow.org/indexnow?url=${this.newUrl}&key=14043d5103c44fdea7b394163e2898aa`,
         { headers: {
               'Content-Type': 'application/json; charset=UTF-8',
-              "Access-Control-Allow-Origin": "https://mspase.com/",
+              "Access-Control-Allow-Origin": '*',
               "crossDomain": true
           }
         },
@@ -57,7 +57,7 @@ export default {
         // this.$router.push('/')
 
         // this.error = e.response.data.message
-        // e2442b4a963e4b1a9bb0bfd7af405e70
+        // 14043d5103c44fdea7b394163e2898aa
 
     }
   }
