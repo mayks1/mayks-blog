@@ -225,7 +225,7 @@ export default {
   flex-direction: column;
   position: relative;
   color: var(--black);
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   font-size: 26px;
 }
 
@@ -265,7 +265,7 @@ export default {
   background: none;
   border: none;
   border-bottom: 1px solid #666;
-  color: #ddd;
+  color: var(--black);
   font-size: 14px;
   text-transform: uppercase;
   outline: none;

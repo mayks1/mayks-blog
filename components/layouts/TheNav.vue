@@ -6,9 +6,9 @@
       <li>
         <nuxt-link to="/">Начало</nuxt-link>
       </li>
-      <!-- <li>
-        <nuxt-link to="#">Категории</nuxt-link>
-      </li> -->
+      <li>
+        <nuxt-link to="/categories">Категории</nuxt-link>
+      </li>
       <li>
         <nuxt-link to="/contact">Контакт</nuxt-link>
       </li>
