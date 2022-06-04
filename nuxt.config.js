@@ -12,7 +12,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     htmlAttrs: {
-      lang: "bg",
+      lang: "bg-BG",
     },
     script: [
       // Google Analytics Code
@@ -121,7 +121,7 @@ export default {
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {},
+  // pwa: {},
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

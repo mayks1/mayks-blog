@@ -35,26 +35,8 @@
     },
 }
 </script>
+
 <style>
-/* .content {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (max-width: 767px) {
-  .content {
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .content {
-      padding-left: 20px;
-      padding-right: 20px;
-  }
-} */
-
 .mx-width-800 {
   max-width: 800px;
 }

@@ -7,7 +7,7 @@
 <script>
 
 export default {
-    name: "ContacPage",
+    name: "ContactPage",
     head() {
         return {
             title: "MSpase - Контактна Форма",
@@ -15,7 +15,7 @@ export default {
                 {
                     hid: "description",
                     name: "description",
-                    content: "Може да зададете Вашите въпроси в Нашата Контактна Форма",
+                    content: "Задайте Вашите въпроси чрез Нашата Контактна Форма",
                 },
             ],
             link: [

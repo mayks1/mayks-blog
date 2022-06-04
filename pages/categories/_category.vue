@@ -58,6 +58,9 @@ export default {
     },
     head() {
       return {
+        htmlAttrs: {
+          lang: 'bg-BG'
+        },
         title: `Статии с Категория - ${this.captialise(this.$route.params.category)}`,
         meta: [
           { hid: "description", name: "description", content: this.category.description },
