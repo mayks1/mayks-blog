@@ -1,6 +1,6 @@
 <template>
     <VuePureLightbox
-        :thumbnail="thumb ? thumb : thumb=src"
+        :thumbnail="thumbnail"
         :images="[src]"
         :alternate-text="alt"
     />
@@ -26,6 +26,15 @@ export default {
             required: true
         }
     },
+    computed: {
+        thumbnail() {
+            if (this.thumb) {
+                return this.thumb
+            } else {
+                return this.src
+            }
+        }
+    }
 }
 </script>
 <style src="vue-pure-lightbox/dist/VuePureLightbox.css">
