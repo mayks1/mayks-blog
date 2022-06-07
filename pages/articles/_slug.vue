@@ -67,7 +67,7 @@ require('nuxt-video-player/src/assets/css/main.css')
 
 export default {
   components: {
-    VideoPlayer
+    VideoPlayer,
   },
   head() {
     return {
@@ -177,6 +177,14 @@ export default {
 
 .typo .video {
   margin: 15px 0;
+}
+
+/* Images LightBox CSS */
+.typo .lightbox {
+  background: rgba(0,0,0,.5)
+}
+.typo .lightbox__close {
+    font-size: 3.5rem;
 }
 .blog-post {
   width: 100%;

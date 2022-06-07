@@ -21,13 +21,21 @@
         <button type="submit" class="myButton">Изпрати !!!</button>
       </div>
     </form>
+    <VuePureLightbox
+      thumbnail="https://via.placeholder.com/350x150"
+      :images="['https://placekitten.com/1080/910']"
+    />
   </div>
 </template>
 
 <script>
 import axios from 'axios'
+import VuePureLightbox from 'vue-pure-lightbox'
 
 export default {
+   components: {
+    VuePureLightbox,
+  },
   data() {
     return {
       newUrl: '',
@@ -64,7 +72,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+@import url("./../node_modules/vue-pure-lightbox/dist/VuePureLightbox.css");
+
 .label {
   display: block;
   padding: 15px 0;

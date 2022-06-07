@@ -25,6 +25,7 @@ status: publish
 
 Млада лекарка с 6-годишна дъщеря са на нощен полет, обхванат от ужасна буря. В полупразната кабина тя се сблъсква с необяснима смърт на спътниците си, губи контрол над реалността и преживява отново най-лошия кошмар от детството си.
 
+
 ### Режисьор:
 
 -   [Alexander Babaev](https://www.imdb.com/name/nm5192303)
@@ -37,15 +38,26 @@ status: publish
 -   [Rinat Abushaev](https://www.imdb.com/name/nm2486671)
 -   [Laila Berzins](https://www.imdb.com/name/nm5389637)
 
-![Svetlana Ivanova and Marta Kessler in Ryad 19 (2021)](https://m.media-amazon.com/images/M/MV5BYmU3NTk1MTItZGNlZS00OTk1LWJkZTctOTA0M2VkYTM0MDZkXkEyXkFqcGdeQXVyNjcxMTIwNzU@._V1_.jpg)
-
-![Wolfgang Cerny in Ryad 19 (2021)](https://m.media-amazon.com/images/M/MV5BMzdjZDgxNmQtYmY5MS00MWM0LWFlZTktZDhkNWFmZjgxMjA5XkEyXkFqcGdeQXVyNjcxMTIwNzU@._V1_.jpg)
-
-![Viktoriya Korlyakova in Ryad 19 (2021)](https://m.media-amazon.com/images/M/MV5BZTZlOGYwMGMtYzYyZC00ZjJhLWEyYzctY2QzNDVlZGUwOTU0XkEyXkFqcGdeQXVyNjcxMTIwNzU@._V1_.jpg)
-
-![Marta Kessler in Ryad 19 (2021)](https://m.media-amazon.com/images/M/MV5BMGQyZTU4ODItYTljNC00YjRhLTk0OTktODllNjhjZDg0MTlhXkEyXkFqcGdeQXVyMTE0NjIzNTMw._V1_.jpg)
-
-![Viktoriya Korlyakova in Ryad 19 (2021)](https://m.media-amazon.com/images/M/MV5BODVlMDMxZDYtNTgxZi00NTc0LWFjNGItYzc3MjNmZmM4YmMwXkEyXkFqcGdeQXVyMTM1NTM4MzQx._V1_.jpg)
+<article-image 
+  src="https://m.media-amazon.com/images/M/MV5BYmU3NTk1MTItZGNlZS00OTk1LWJkZTctOTA0M2VkYTM0MDZkXkEyXkFqcGdeQXVyNjcxMTIwNzU@._V1_.jpg"
+  alt="Svetlana Ivanova and Marta Kessler in Ryad 19 (2021)"
+/></article-image>
+<article-image 
+  src="https://m.media-amazon.com/images/M/MV5BMzdjZDgxNmQtYmY5MS00MWM0LWFlZTktZDhkNWFmZjgxMjA5XkEyXkFqcGdeQXVyNjcxMTIwNzU@._V1_.jpg"
+  alt="Wolfgang Cerny in Ryad 19 (2021)"
+/></article-image>
+<article-image 
+  src="https://m.media-amazon.com/images/M/MV5BZTZlOGYwMGMtYzYyZC00ZjJhLWEyYzctY2QzNDVlZGUwOTU0XkEyXkFqcGdeQXVyNjcxMTIwNzU@._V1_.jpg"
+  alt="Viktoriya Korlyakova in Ryad 19 (2021)"
+/></article-image>
+<article-image 
+  src="https://m.media-amazon.com/images/M/MV5BMGQyZTU4ODItYTljNC00YjRhLTk0OTktODllNjhjZDg0MTlhXkEyXkFqcGdeQXVyMTE0NjIzNTMw._V1_.jpg"
+  alt="Marta Kessler in Ryad 19 (2021)"
+/></article-image>
+<article-image 
+  src="https://m.media-amazon.com/images/M/MV5BODVlMDMxZDYtNTgxZi00NTc0LWFjNGItYzc3MjNmZmM4YmMwXkEyXkFqcGdeQXVyMTM1NTM4MzQx._V1_.jpg"
+  alt="Viktoriya Korlyakova in Ryad 19 (2021)"
+/></article-image>
 
 #### Интригуващ руски трилър:
 
