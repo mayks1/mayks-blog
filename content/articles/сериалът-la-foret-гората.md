@@ -1,6 +1,6 @@
 ---
 title: Сериал La Forêt – Гората
-description: Този френски сериал La Forêt – Гората е от шест части се развива в село в Ардените, където шестнадесет годишно момиче Дженифър изчезва. 
+description: Този френски сериал La Forêt – Гората е от шест части се развива в село в Ардените, където шестнадесет годишно момиче Дженифър изчезва.
 img: https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-1_agt3xw_vrtcxp.webp
 alt: сериал La Foret – Гората
 imdb: https://www.imdb.com/title/tt6560040/?ref_=ext_shr_lnk
@@ -12,26 +12,27 @@ tags:
   - филми
   - сериали
   - криминален
-number: 
+number:
 date: 25.05.2022г.
 status: publish
 ---
-## Френски криминален сериал  
 
-| ![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-7_fxnlrd_ijw6vb.webp) | ![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-5_ctgtgp_xa3ovi.webp) |
-|--|--|
-|![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-8_wsv7kh_stzfgc.webp)  | ![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-6_ruiwcq_thsppj.webp) |
+## Френски криминален сериал
+
+| <article-image thumb="https://res.cloudinary.com/mayks/image/upload/c_scale,w_350/v1653205131/blog-mayks/movies/la-foret/la-foret-7_fxnlrd_ijw6vb.webp" src="https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-7_fxnlrd_ijw6vb.webp" alt="Сериалът Гората - La Foret"/></article-image> | <article-image thumb="https://res.cloudinary.com/mayks/image/upload/c_scale,w_350/v1653205131/blog-mayks/movies/la-foret/la-foret-5_ctgtgp_xa3ovi.webp" src="https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-5_ctgtgp_xa3ovi.webp" alt="Сериалът Гората - La Foret"/></article-image> |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <article-image thumb="https://res.cloudinary.com/mayks/image/upload/c_scale,w_350/v1653205131/blog-mayks/movies/la-foret/la-foret-8_wsv7kh_stzfgc.webp" src="https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-8_wsv7kh_stzfgc.webp" alt="Сериалът Гората - La Foret"/></article-image> | <article-image thumb="https://res.cloudinary.com/mayks/image/upload/c_scale,w_350/v1653205131/blog-mayks/movies/la-foret/la-foret-6_ruiwcq_thsppj.webp" src="https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-6_ruiwcq_thsppj.webp" alt="Сериалът Гората - La Foret"/></article-image>  |  
 
 
 ### Създател:
 
--   [Delinda Jacobs](https://www.imdb.com/name/nm3064398/?ref_=tt_ov_wr)
+- [Delinda Jacobs](https://www.imdb.com/name/nm3064398/?ref_=tt_ov_wr)
 
 ### Участват:
 
--   [Samuel Labarthe](https://www.imdb.com/name/nm0479355/?ref_=tt_ov_st)
--   [Suzanne Clément](https://www.imdb.com/name/nm0167501/?ref_=tt_ov_st)
--   [Alexia Barlier](https://www.imdb.com/name/nm1715145/?ref_=tt_ov_st)  
+- [Samuel Labarthe](https://www.imdb.com/name/nm0479355/?ref_=tt_ov_st)
+- [Suzanne Clément](https://www.imdb.com/name/nm0167501/?ref_=tt_ov_st)
+- [Alexia Barlier](https://www.imdb.com/name/nm1715145/?ref_=tt_ov_st)
 
 <div class="video">
   <video-player src="https://www.youtube.com/embed/0KGIwqRlgQ8" />
@@ -39,10 +40,10 @@ status: publish
 
 #### Сюжет:
 
-Този френски сериал от шест части се развива в село в  [Ардените](https://bg.wikipedia.org/wiki/%D0%90%D1%80%D0%B4%D0%B5%D0%BD%D0%B8), където шестнадесет годишно момиче Дженифър изчезва. Ръководител на разследването е капитан Гаспар Декер, който пристига в селото в деня, в който Дженифър изчезва. Скоро след това изчезват още две момичета, включително осиновената дъщеря на лейтенант Виржини Мусо. Доказателствата сочат, че Дженифър е изчезнала в обширната гора, която заобикаля селото. С напредването на сериала се появяват заподозрени и мотиви и се случват събития, които ще имат дълбок ефект върху замесените. Втора мистерия е учителката Ив, чиято истинска самоличност е неизвестна: тя е открита близо до гората като малка, без спомен какво й се е случило преди това.
+Този френски сериал от шест части се развива в село в [Ардените](https://bg.wikipedia.org/wiki/%D0%90%D1%80%D0%B4%D0%B5%D0%BD%D0%B8), където шестнадесет годишно момиче Дженифър изчезва. Ръководител на разследването е капитан Гаспар Декер, който пристига в селото в деня, в който Дженифър изчезва. Скоро след това изчезват още две момичета, включително осиновената дъщеря на лейтенант Виржини Мусо. Доказателствата сочат, че Дженифър е изчезнала в обширната гора, която заобикаля селото. С напредването на сериала се появяват заподозрени и мотиви и се случват събития, които ще имат дълбок ефект върху замесените. Втора мистерия е учителката Ив, чиято истинска самоличност е неизвестна: тя е открита близо до гората като малка, без спомен какво й се е случило преди това.
 |![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-4_bqfrxb_wliyum.webp)|![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-3_fyxbor_e9xezi.webp)|
 |--|--|
-|![](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-12_nxqcbk_a8h08g.webp)|![](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-10_z43oak_dtalxi.webp)|  
+|![](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-12_nxqcbk_a8h08g.webp)|![](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-10_z43oak_dtalxi.webp)|
 
 Сериалът е със само шест епизода за разказване на историята, сюжетът се развива бързо. Основните герои се представят бързо: изчезналите момичета, семействата, ченгетата и градските чудаци. Уважавам шоу, което не губи време да стигне до сърцето на историята си. Недостатъкът е, че героите са колекция от клишета. Развитието на героите като цяло се променя в полза на продължаването на сюжета.
 
@@ -54,4 +55,4 @@ status: publish
 
 #### Български Машинни субтитри:
 
--   [Субтитри за сериала La Forêt – Сезон 1](http://mayks.bg.cm/subtitles/la-foret/La-foret-S01.zip)
+- [Субтитри за сериала La Forêt – Сезон 1](http://mayks.bg.cm/subtitles/la-foret/La-foret-S01.zip)

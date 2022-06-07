@@ -38,9 +38,9 @@ status: publish
 -   [Макс Бийсли](https://www.imdb.com/name/nm0066586/?ref_=ttfc_fc_cl_t4)
 -   [Ашлинг Лофтъс](https://www.imdb.com/name/nm1528026/?ref_=ttfc_fc_cl_t5)
 
-| ![The Midwich Cuckoos (2022) Какво за децата](https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0003_zb3lpz.webp) | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0005_xklfec.webp) |
+| ![The Midwich Cuckoos (2022) Какво за децата](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0003_zb3lpz.webp) | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0005_xklfec.webp) |
 |--|--|
-|![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/v1654245812/blog-mayks/movies/midwich-cuckoos/mpv-shot0001_lavyew.webp)  | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0014_u7fbq2.webp) |
+|![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245812/blog-mayks/movies/midwich-cuckoos/mpv-shot0001_lavyew.webp)  | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0014_u7fbq2.webp) |
 
 #### Историята:
 
@@ -58,10 +58,10 @@ status: publish
 
 The Midwich Cuckoos е научно-фантастичен роман от 1957 г., написан от английския автор Джон Уиндъм. Разказва за английско село, в което жените забременяват от паразитни извънземни. Тази телевизионна адаптация е най-новата в поредица от продукции, започващи с филмите ["Village of the Damned"](https://www.imdb.com/title/tt0054443) през 1960 и 1995 г. и радиопредавания през 1982, 2003 и 2017 г.
 
-| ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0011_tpszrr.webp) | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0007_wrx7we.webp) |
+| ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0011_tpszrr.webp) | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0007_wrx7we.webp) |
 |--|--|
-|![The Midwich Cuckoos (2022))](https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0015_st99y3.webp)  | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/v1654245814/blog-mayks/movies/midwich-cuckoos/mpv-shot0020_luxdra.webp) |
-|![The Midwich Cuckoos (2022))](https://res.cloudinary.com/mayks/image/upload/v1654245814/blog-mayks/movies/midwich-cuckoos/mpv-shot0022_nwt5b4.webp)  | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0016_zku9ba.webp) |
+|![The Midwich Cuckoos (2022))](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0015_st99y3.webp)  | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245814/blog-mayks/movies/midwich-cuckoos/mpv-shot0020_luxdra.webp) |
+|![The Midwich Cuckoos (2022))](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245814/blog-mayks/movies/midwich-cuckoos/mpv-shot0022_nwt5b4.webp)  | ![The Midwich Cuckoos (2022)](https://res.cloudinary.com/mayks/image/upload/c_scale,w_330/v1654245813/blog-mayks/movies/midwich-cuckoos/mpv-shot0016_zku9ba.webp) |
 
 
 [Машинни български субтитри за сериала The Midwich Cuckoos (2022)](http://mayks.bg.cm/subtitles/the-midwich-cuckoos/The.Midwich.Cuckoos.S01.COMPLETE.720p.WEBRip.x264-GalaxyTV%5bTGx%5d.zip)

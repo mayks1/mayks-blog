@@ -1,7 +1,7 @@
 ---
 title: From - сериал на Epix
 description: From - сериал на компанията EPIX разкрива мистерията на един кошмарен град в Средна Америка, който хваща в капан всички, които влизат.
-img: https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-main_atkv2j.webp
+img: https://res.cloudinary.com/mayks/image/upload/c_scale,w_720/v1653657122/blog-mayks/movies/from/from-main_atkv2j.webp
 alt: Сериалът - From - мистерията на един кошмарен град в Средна Америка
 imdb: https://www.imdb.com/title/tt9813792/?ref_=ext_shr_lnk
 subs: http://mayks.bg.cm/subtitles/from/From.S01.COMPLETE.720p.AMZN_.WEBRip.x264-GalaxyTVTGx.zip
@@ -40,19 +40,33 @@ status: publish
 
 #### Сюжет:
 
-Разкрийте мистерията на един град в Централна Америка, който затваря всеки, който влезе е него. Жителите се борят да запазят чувството си за нормалност и да търсят изход, те също така трябва да се  пазят от заплахите на околните гори, включително от ужасяващите същества, които излизат, когато слънцето залезе.  
+Разкрийте мистерията на един град в Централна Америка, който затваря всеки, който влезе е него. Жителите се борят да запазят чувството си за нормалност и да търсят изход, те също така трябва да се  пазят от заплахите на околните гори, включително от ужасяващите същества, които излизат, когато слънцето залезе.
 
-![from-сериал 2](https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-2_hepo6f.webp)  
+<article-image 
+  thumb="https://res.cloudinary.com/mayks/image/upload/c_scale,w_720/v1653657122/blog-mayks/movies/from/from-2_hepo6f.webp"
+  src="https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-2_hepo6f.webp"
+  alt="From-сериал 2"
+/></article-image>
+
 
 ### Любопитни факти:
 
 Изпълнителният продуцент/режисьор Джак Бендър и звездата Харолд Перино са работили по телевизионния сериал Lost.  
 
-![сериал From 3](https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-1_gxtd1b.webp)  
+<article-image 
+  thumb="https://res.cloudinary.com/mayks/image/upload/c_scale,w_720/v1653657122/blog-mayks/movies/from/from-1_gxtd1b.webp"
+  src="https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-1_gxtd1b.webp"
+  alt="From-сериал 3"
+/></article-image>
+
 
 На мястото, известно като Вилата на Beaver Bank има дълга история и преди много години е имало:  жилища, читалище, пожарна станция, училище, църква, магазин  и др. (всички разрушени до 2004 г.) за подпомагане на работниците от близката военна радарна база, работеща през 50-те и 60-те години на миналия век. Всичко което е останало са павираните улици и алеите. Градът във филма е бил построен върху тях.  
 
-![from камбаната бие](https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-3_iwpfz8.webp)  
+<article-image 
+  thumb="https://res.cloudinary.com/mayks/image/upload/c_scale,w_720/v1653657122/blog-mayks/movies/from/from-3_iwpfz8.webp"
+  src="https://res.cloudinary.com/mayks/image/upload/v1653657122/blog-mayks/movies/from/from-3_iwpfz8.webp"
+  alt="From-сериал камбаната бие"
+/></article-image>
 
 Камбаната бие за прибиране в къщи!!!  
 

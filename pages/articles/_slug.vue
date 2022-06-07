@@ -181,7 +181,8 @@ export default {
 
 /* Images LightBox CSS */
 .typo .lightbox {
-  background: rgba(0,0,0,.5)
+  background: rgba(0,0,0,.5);
+  z-index: 100;
 }
 .typo .lightbox__close {
     font-size: 3.5rem;
