@@ -10,7 +10,13 @@
 
         <div class="info">
           <div v-if="article.categories">
-            <span v-for="(category, i) in article.categories" :key="i" class="category">{{ category }}</span>
+            
+              <span class="category" v-for="(category, i) in article.categories" :key="i">
+                <nuxt-link :to="`/categories/${category}`">
+                  {{ category }}
+                </nuxt-link>
+              </span>
+
           </div>
           <Date :date="formatDate(article.date)" />
         </div>
@@ -82,15 +88,14 @@ img:focus {
 
 /* Style div elements that have class equal to category */
 .category {
-  /* border: 1px solid #e5eaed; */
-  /* font-family: Arial, Helvetica, sans-serif; */
   padding: 8px 15px;
   margin-right: 10px;
   border-radius: 18px;
-  font-size: 14px;
-  /* font-weight: 600; */
-  color: var(--white);
   background-color: var(--dark-blue);
+}
+.category a {
+  font-size: 14px;
+  color: var(--white);
 }
 
 /* Style div elements that have class equal to name */
