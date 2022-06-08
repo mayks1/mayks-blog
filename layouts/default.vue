@@ -33,6 +33,8 @@ export default {
     structuredData: {
         "@context": "http://schema.org",
         "@type": "Organization",
+        "name": "MSpase Blog",
+        "description": "MSpase.com - ви предоставя интересни новини и истории от България и света, свободни мнения, лайфстайл, сериали, филми, субтитри, технологии, наука, програмиране",
         "url": "https://mspase.com",
         "logo": "https://mspase.com/logo.png",
       }
