@@ -1,6 +1,9 @@
 <template>
     <aside class="aside-wrapper box">
-        <AsideCard v-if="dataReady" :categories="categories"/>
+        <div>
+
+        </div>
+        <AsideCard v-if="dataReady" :categories="categories" v-show="$route.path!=='/categories'"/>
         <AdsCard/>
     </aside>
 </template>

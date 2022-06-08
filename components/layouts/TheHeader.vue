@@ -28,8 +28,8 @@ export default {
 .rss-icon {
   position: absolute;
   z-index: 10;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
 }
 </style>
 
