@@ -29,6 +29,19 @@ export default {
     TheSideBar,
     CookiesConsent,
   },
+  data: () => ({
+    structuredData: {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://mspase.com",
+        "logo": "https://mspase.com/logo.png",
+      }
+  }),
+  head() {
+    return {
+      script: [{ type: 'application/ld+json', json: this.structuredData }]
+    }
+  },
 }
 </script>
 
