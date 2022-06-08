@@ -1,21 +1,21 @@
 <template>
-  <div>
-    <div class="flex justify-center">
-      <h1
-        class="text-center text-3xl mb-4 uppercase bg-black text-white inline-block mx-auto px-2"
-      >
-        Всички Категории
-      </h1>
-    </div>
-    <ul>
-      <li v-for="category in categories" :key="category" class="text-center mb-2">
-        <nuxt-link
-          :to="`/categories/${category.name}`"
-          class="text-4xl hover:underline"
-          >{{ category.name }}</nuxt-link
-        >
-      </li>
-    </ul>
+  <div class="box">
+    <article class="card-wrapper">
+      <div class="card">
+        <div class="title">
+          <h1 class="title-header">
+            Всички Категории
+          </h1>
+        </div>
+        <ul class="category-list">
+          <li class="category-items" v-for="category in categories" :key="category" >
+            <nuxt-link :to="`/categories/${category.name}`">
+              {{ category.name }}
+            </nuxt-link>
+          </li>
+        </ul>
+      </div>
+    </article>
   </div>
 </template>
 
@@ -46,3 +46,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.title {
+  text-align: center;
+}
+
+.title-header {
+  color: var(--black);
+}
+</style>

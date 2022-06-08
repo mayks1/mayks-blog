@@ -126,11 +126,6 @@ a:hover {
     outline: 0;
 }
 
-/* ol, ul li::marker{
-	list-style: none;
-} */
-
-
 
 .line-after:after {
     display: block;
@@ -144,6 +139,19 @@ a:hover {
 .box {
   margin-left: auto;
   margin-right: auto;
+}
+
+.card-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 40px;
+}
+
+.card {
+  background-color: var(--white);
+  border: 1px solid #bacdd8;
+  padding: 8px;
+  border-radius: 12px;
 }
 
 @media screen and (max-width: 767px) {

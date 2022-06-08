@@ -37,11 +37,9 @@ export default {
 </script>
 
 <style scoped>
-.card-wrapper {
+/* .card-wrapper {
   width: 100%;
-  /* max-width: 300px; */
   margin: 0 auto;
-  /* margin-top: 10vh; */
   padding: 0 0 40px;
 }
 
@@ -50,7 +48,7 @@ export default {
   border: 1px solid #bacdd8;
   padding: 8px;
   border-radius: 12px;
-}
+} */
 
 img {
   width: 100%;
