@@ -12,7 +12,7 @@
           <div v-if="article.categories">
             <span v-for="(category, i) in article.categories" :key="i" class="category">{{ category }}</span>
           </div>
-          <Date :date="article.date" />
+          <Date :date="formatDate(article.date)" />
         </div>
         
         <NuxtLink :to="`/articles/${article.slug}`">
@@ -29,9 +29,13 @@
 </template>
 
 <script>
+import formatDate from '@/utils/formatDate'
 export default {
   props: {
     article: Object,
+  },
+  methods: {
+      formatDate
   },
 }
 </script>

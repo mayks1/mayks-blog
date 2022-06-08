@@ -11,7 +11,7 @@ tags:
   - nuxt
   - analytics
 number: 5
-date: 30.05.2022г.
+date: 2022-05-30
 status: publish
 ---
 ## Google Analytics GA4 Code in Nuxt without any Plugins

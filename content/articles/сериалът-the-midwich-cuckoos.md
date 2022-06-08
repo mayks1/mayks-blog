@@ -14,7 +14,7 @@ tags:
   - фантастика,
   - мистерия
 number: 8
-date: 03.06.2022г.
+date: 2022-06-03
 status: publish
 ---
 

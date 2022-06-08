@@ -11,7 +11,7 @@ tags:
   - nuxt
   - vue
 number: 10
-date: 08.06.2022г.
+date: 2022-06-08
 status: publish
 ---
 ## Adding Vue Plugin [vue-pure-lightbox](https://github.com/DCzajkowski/vue-pure-lightbox) in Nuxt Conten markdown file

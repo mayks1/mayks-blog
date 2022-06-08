@@ -12,6 +12,9 @@
       <li>
         <nuxt-link to="/contact">Контакт</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/articles/rss.xml" target="_blank"><RSS /></nuxt-link>
+      </li>
     </ul>
     <!-- <AppSearchInput /> -->
   </nav>
@@ -19,7 +22,11 @@
 </template>
 
 <script>
-
+import RSS from '@/components/svg/RSS'
+export default {
+  name: 'TheNav',
+  components: { RSS },
+}
 </script>
 
 <style scoped>

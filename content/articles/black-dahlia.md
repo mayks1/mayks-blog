@@ -9,7 +9,7 @@ tags:
   - история
   - крими
 number: 4
-date: 30.05.2022г.
+date: 2022-05-30
 status: publish
 ---
 

@@ -128,6 +128,8 @@ export default {
     '@nuxt/content',
     // A Nuxt.js module thats inject a middleware to generate a robots.txt
     '@nuxtjs/robots',
+    // Feed module - https://github.com/nuxt-community/feed-module
+    '@nuxtjs/feed',
     // Add the Nuxt sitemap module
     '@nuxtjs/sitemap',
     // Social Sharing Buttons to NuxtJS: https://www.zemna.net/articles/how-to-add-social-sharing-buttons-to-nuxtjs/
@@ -152,6 +154,47 @@ export default {
       return getRoutes()
     },
   },
+
+  // RSS Feed Configuration (https://github.com/nuxt-community/feed-module)
+  feed() {
+    const baseUrlArticles = `${global.siteUrl}/articles`
+    const baseLinkFeedArticles = '/articles'
+    const feedFormats = {
+      rss: { type: 'rss2', file: 'rss.xml' },
+      json: { type: 'json1', file: 'feed.json' },
+    }
+    const { $content } = require('@nuxt/content')
+
+    const createFeedArticles = async function (feed) {
+      feed.options = {
+        title: global.siteName || '',
+        description: global.siteDesc || '',
+        link: baseUrlArticles,
+      }
+      const articles = await $content('articles').fetch()
+
+      articles.forEach((article) => {
+        const url = `${baseUrlArticles}/${article.slug}`
+
+        feed.addItem({
+          title: article.title,
+          id: url,
+          link: url,
+          date: new Date(article.date),
+          description: article.description,
+          content: article.description,
+          author: global.twitterHandle,
+        })
+      })
+    }
+
+    return Object.values(feedFormats).map(({ file, type }) => ({
+      path: `${baseLinkFeedArticles}/${file}`,
+      type,
+      create: createFeedArticles,
+    }))
+  },
+
   publicRuntimeConfig: {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
   },

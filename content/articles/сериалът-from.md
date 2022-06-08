@@ -13,7 +13,7 @@ tags:
   - сериали
   - ужаси
 number: 2
-date: 27.05.2022г.
+date: 2022-05-27
 status: publish
 ---
 

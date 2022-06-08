@@ -13,7 +13,7 @@ tags:
   - ужаси
   - трилър
 number: 9
-date: 05.06.2022г.
+date: 2022-06-05
 status: publish
 ---
 
