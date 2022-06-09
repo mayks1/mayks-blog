@@ -2,7 +2,7 @@
   <article class="box">
     <div class="category-container">
 
-      <h1 >Категория: <span>{{ $route.params.category }}</span> </h1>
+      <h1 >Категория: <span>{{ $route.params.category | capitalizeFirstLetter }}</span> </h1>
       <p class="line-after">{{ category.description}}</p>
 
       <ul>
@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import getSiteMeta from '@/utils/getSiteMeta'
 export default {
   name: 'CategoryPage',
 
@@ -50,33 +51,40 @@ export default {
       category
     }
   },
-
-   methods: {
-      captialise(text) {
-        return text.charAt(0).toUpperCase() + text.slice(1);
-      },
-    },
-    head() {
-      return {
-        htmlAttrs: {
-          lang: 'bg-BG'
-        },
-        title: `Статии с Категория - ${this.captialise(this.$route.params.category)}`,
-        meta: [
-          { hid: "description", name: "description", content: this.category.description },
-        ],
-        
-        link: [
-          {
-            hid: 'canonical',
-            rel: 'canonical',
-            href: `${this.$config.baseUrl}/categories/${this.$route.params.category}`,
-          },
-        ],
+  computed: {
+    meta() {
+      const metaData = {
+        type: "category",
+        title: `Статии с Категория - ${this.$options.filters.capitalizeFirstLetter(this.$route.params.category)}`,
+        description: this.category.description,
+        url: `${this.$config.baseUrl}/categories/${this.$route.params.category}`,
+        mainImage: '',
       };
-    },
+      return getSiteMeta(metaData);
+    }
+  },
+  head() {
+    return {
+      htmlAttrs: {
+        lang: 'bg-BG'
+      },
+      // Използваме глобалния филтър чрез this.$options.filters._____
+      title: `Статии с Категория - ${this.$options.filters.capitalizeFirstLetter(this.$route.params.category)}`,
+      meta: [
+        ...this.meta,
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `${this.$config.baseUrl}/categories/${this.$route.params.category}`,
+        },
+      ],
+    };
+  },
 }
 </script>
+
 <style scoped>
 .category-container {
     background-color: var(--white);

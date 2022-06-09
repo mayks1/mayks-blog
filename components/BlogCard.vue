@@ -18,7 +18,7 @@
               </span>
 
           </div>
-          <Date :date="formatDate(article.date)" />
+          <Date :date="article.date | formatDate" />
         </div>
         
         <NuxtLink :to="`/articles/${article.slug}`">
@@ -35,30 +35,14 @@
 </template>
 
 <script>
-import formatDate from '@/utils/formatDate'
 export default {
   props: {
     article: Object,
-  },
-  methods: {
-      formatDate
   },
 }
 </script>
 
 <style scoped>
-/* .card-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 0 40px;
-}
-
-.card {
-  background-color: var(--white);
-  border: 1px solid #bacdd8;
-  padding: 8px;
-  border-radius: 12px;
-} */
 
 img {
   width: 100%;

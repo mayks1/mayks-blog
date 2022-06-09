@@ -32,7 +32,7 @@
         <div class="meta">
 
           <div class="meta-info">
-            <Date :date="formatDate(article.date)"/>
+            <Date :date="article.date | formatDate"/>
             <div v-if="article.categories[0] === 'филми'" class="meta-info-icons">
               <a  :href="article.imdb" target="_blank">
                 <svg-icon class="meta-info-icons__small" name="imdb" title="Виж в IMDB" />
@@ -60,7 +60,6 @@
 </article>
 </template>
 <script>
-import formatDate from '@/utils/formatDate'
 import VideoPlayer from 'nuxt-video-player'
 import global from '@/utils/global'
 import getSiteMeta from '@/utils/getSiteMeta'
@@ -132,9 +131,6 @@ export default {
       };
       return getSiteMeta(metaData);
     }
-  },
-  methods: {
-    formatDate
   },
   async asyncData({ $content, $config, route, params }) {
       const article = await $content("articles", params.slug).fetch();

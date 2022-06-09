@@ -5,18 +5,27 @@
 </template>
 
 <script>
+import getSiteMeta from '@/utils/getSiteMeta'
 
 export default {
     name: "ContactPage",
+    computed: {
+        meta() {
+                const metaData = {
+                    type: "contact",
+                    title: "MSpase - Контактна Форма",
+                    description: "Свържете се с екипа на MSpase.com и Задайте Вашите въпроси чрез Нашата Контактна Форма",
+                    url: `${this.$config.baseUrl}/contact`,
+                    mainImage: '',
+                }
+            return getSiteMeta(metaData);
+        }
+    },
     head() {
         return {
             title: "MSpase - Контактна Форма",
             meta: [
-                {
-                    hid: "description",
-                    name: "description",
-                    content: "Задайте Вашите въпроси чрез Нашата Контактна Форма",
-                },
+                ...this.meta,
             ],
             link: [
                 {

@@ -98,6 +98,7 @@ export default {
       src: 'plugins/vue-cookies-consent.js',
       mode: 'client',
     },
+    '~plugins/filters.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
