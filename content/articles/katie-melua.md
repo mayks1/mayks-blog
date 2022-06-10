@@ -55,7 +55,7 @@ Melua's sixth studio album,  _[Ketevan](https://en.wikipedia.org/wiki/Ketevan_(a
 
 ### _In Winter_  (2016)
 
-Melua with the  [Gori Women's Choir](https://en.wikipedia.org/w/index.php?title=Gori_Women%27s_Choir&action=edit&redlink=1 "Gori Women's Choir (page does not exist)"), 2018
+Melua with the  [Gori Women's Choir](https://en.wikipedia.org/wiki/Gori_Women%27s_Choir), 2018
 
 Melua's seventh album,  _[In Winter](https://en.wikipedia.org/wiki/In_Winter "In Winter")_, was released on 14 October 2016.(https://en.wikipedia.org/wiki/Katie_Melua#cite_note-65)(https://en.wikipedia.org/wiki/Katie_Melua#cite_note-66)  For this record, Melua went back to her native  [Georgia](https://en.wikipedia.org/wiki/Georgia_(country) "Georgia (country)")  to record an album with the  [Gori](https://en.wikipedia.org/wiki/Gori,_Georgia "Gori, Georgia")  Women's Choir, a native Georgian all-woman singing troupe. Melua revealed during an interview with  _[The Guardian](https://en.wikipedia.org/wiki/The_Guardian "The Guardian")_  that her partnership with Mike Batt had come to an end after her last album, as it was a six-album deal with Batt's Dramatico records.(https://en.wikipedia.org/wiki/Katie_Melua#cite_note-67)
 
