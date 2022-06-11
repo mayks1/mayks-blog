@@ -35,6 +35,12 @@ export default {
         name: 'google-site-verification',
         content: 'cxhSEt9LsuBdDO9G8hqQY4ta8Y8P2renRpirqF9bfdE',
       },
+      // https://app.ahrefs.com verification
+      {
+        name: 'ahrefs-site-verification',
+        content:
+          '5d3eb915476c96f16d07a751f7f914f34e5b51d21e6d353abec4e6f88a5fb824',
+      },
       ...meta,
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
