@@ -1,8 +1,8 @@
-import global from "./utils/global";
-import getRoutes from "./utils/getRoutes";
-import getSiteMeta from "./utils/getSiteMeta";
+import global from './utils/global'
+import getRoutes from './utils/getRoutes'
+import getSiteMeta from './utils/getSiteMeta'
 
-const meta = getSiteMeta();
+const meta = getSiteMeta()
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
