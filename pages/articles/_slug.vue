@@ -91,12 +91,13 @@ export default {
           property: "article:tag",
           content: this.article.tags ? this.article.tags.toString() : "",
         },
-        { name: "twitter:label1", content: "Written by" },
-        { name: "twitter:data1", content: global.author || '' },
-        { name: "twitter:label2", content: "Filed under" },
+        // Twitter Card Details
+        { name: "twitter:title", content: this.article.title },
+        { name: "twitter:description", content: this.article.description },
+        { name: "twitter:image", content: this.article.img },
         {
-          name: "twitter:data2",
-          content: this.article.tags ? this.article.tags.toString() : "",
+          name: "twitter:url",
+          content: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
         },
       ],
       link: [

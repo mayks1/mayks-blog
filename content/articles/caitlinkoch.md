@@ -1,8 +1,9 @@
 ---
 title: Caitlin Koch is a Nashvill - based Retro Soul artist
-description: Caitlin Koch is a Nashville - based Retro Soul artist, singer & songwriter best known for her performances as the singing rugby coach on Simon Cowell's production, The X Factor USA
+description: Caitlin Koch is a Nashville - based Retro Soul artist, singer & songwriter.
 lang: en
 img: https://res.cloudinary.com/mayks/image/upload/v1653949812/blog-mayks/posts/caitlin-koch/catlin-face_lxfxf7.webp
+alt: Caitlin Koch
 categories:
   - музика
 tags:

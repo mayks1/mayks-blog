@@ -1,6 +1,6 @@
 ---
 title: The Midwich Cuckoos - сериал фантастка, драма, мистерия
-description: The Midwich Cuckoos сериал с With Dexter Sol Ansell, Keeley Hawes, Synnove Karlsen, Max Beesley. Малко измислено селце - "Midwich" в Англия, което е напълно покорено от извънземно присъствие за в рамките на един ден. Български субтитри.
+description: The Midwich Cuckoos е сериал за малко измислено селце - "Midwich" в Англия, което е напълно покорено от извънземно присъствие за в рамките на един ден.
 img: https://res.cloudinary.com/mayks/image/upload/v1654245813/blog-mayks/movies/midwich-cuckoos/midwich-poster_yhgyuo.webp
 alt: Keeley Hawes в сериала The Midwich Cuckoos (2022)
 imdb: https://www.imdb.com/title/tt14245846

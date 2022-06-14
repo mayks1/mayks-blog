@@ -41,9 +41,9 @@ status: publish
 #### Сюжет:
 
 Този френски сериал от шест части се развива в село в [Ардените](https://bg.wikipedia.org/wiki/%D0%90%D1%80%D0%B4%D0%B5%D0%BD%D0%B8), където шестнадесет годишно момиче Дженифър изчезва. Ръководител на разследването е капитан Гаспар Декер, който пристига в селото в деня, в който Дженифър изчезва. Скоро след това изчезват още две момичета, включително осиновената дъщеря на лейтенант Виржини Мусо. Доказателствата сочат, че Дженифър е изчезнала в обширната гора, която заобикаля селото. С напредването на сериала се появяват заподозрени и мотиви и се случват събития, които ще имат дълбок ефект върху замесените. Втора мистерия е учителката Ив, чиято истинска самоличност е неизвестна: тя е открита близо до гората като малка, без спомен какво й се е случило преди това.
-|![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-4_bqfrxb_wliyum.webp)|![](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-3_fyxbor_e9xezi.webp)|
+|![Сериалът Гората - La Foret](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-4_bqfrxb_wliyum.webp)|![Сериалът Гората - La Foret](https://res.cloudinary.com/mayks/image/upload/v1653205131/blog-mayks/movies/la-foret/la-foret-3_fyxbor_e9xezi.webp)|
 |--|--|
-|![](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-12_nxqcbk_a8h08g.webp)|![](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-10_z43oak_dtalxi.webp)|
+|![Сериалът Гората - La Foret](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-12_nxqcbk_a8h08g.webp)|![Сериалът Гората - La Foret](https://res.cloudinary.com/mayks/image/upload/v1653205130/blog-mayks/movies/la-foret/la-foret-10_z43oak_dtalxi.webp)|
 
 Сериалът е със само шест епизода за разказване на историята, сюжетът се развива бързо. Основните герои се представят бързо: изчезналите момичета, семействата, ченгетата и градските чудаци. Уважавам шоу, което не губи време да стигне до сърцето на историята си. Недостатъкът е, че героите са колекция от клишета. Развитието на героите като цяло се променя в полза на продължаването на сюжета.
 

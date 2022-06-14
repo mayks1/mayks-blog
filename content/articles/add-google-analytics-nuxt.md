@@ -1,6 +1,6 @@
 ﻿---
 title: How to add Google Analytics GA4 Code in Nuxt Application?
-description: This article is about how to add Google Analytics in our Nuxt application. We will see about adding Google Analytics GA4 Code type X-XXXXXXXXX without any Plugins.
+description: How to add Google Analytics in our Nuxt application. We will see about adding Google Analytics GA4 Code type X-XXXXXXXXX without any Plugins.
 img: https://res.cloudinary.com/mayks/image/upload/v1653938261/blog-mayks/logo/google_analytics_logo_nuxt_h0kusu.webp
 alt: Google Analytics with NuxtJS Mixed Logo
 lang: en

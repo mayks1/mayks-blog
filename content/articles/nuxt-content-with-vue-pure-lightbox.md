@@ -1,6 +1,6 @@
 ---
 title: How to use vue-pure-lightbox in Nuxt Content body
-description: This article is about how to add vue-pure-lightbox plugin in our Nuxt Content application. We will see about adding vue-pure-lightbox plugin in Nuxt Content MarkDown File.
+description: This article is about how to add vue-pure-lightbox plugin in our Nuxt Content application.
 img: https://res.cloudinary.com/mayks/image/upload/v1654661577/blog-mayks/posts/vue-pure-lightbox/nuxt-content-cover_awnedb.jpg
 alt: Nuxt Content with vue-pure-lightbox
 lang: en

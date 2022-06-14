@@ -1,6 +1,6 @@
 ---
 title: Candy - сериал на Hulu
-description: Candy - сериал на компанията Hulu. Джесика Бийл се превъплащава в убиец, в сериала пресъздаващ истинската история за Канди Монтгомъри и нейната жертва Бети Гор, разтърсила Тексас в началото на 80-те.
+description: Candy. Джесика Бийл се превъплащава в убиец, в сериала пресъздаващ истинската история за Канди Монтгомъри и нейната жертва Бети Гор.
 img: https://res.cloudinary.com/mayks/image/upload/v1654102583/blog-mayks/movies/candy/candy_1_s4ukoz.jpg
 alt: Джесика Бийл в Сериала Candy
 imdb: https://www.imdb.com/title/tt13729648/
