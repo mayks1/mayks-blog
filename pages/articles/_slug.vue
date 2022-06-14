@@ -137,11 +137,12 @@ export default {
       const strData = { 
         "@context": "http://schema.org",
         "@type": "Article",
+        "headline": this.article.title,
         "mainEntityOfPage":{
           "@type":"WebPage",
           "@id": `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
         },
-        "name": this.article.title,
+        // "name": this.article.title,
         "description": this.article.description,
         "author" : {
           "@type" : "Person",
