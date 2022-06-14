@@ -75,6 +75,7 @@ export default {
         lang: this.article.lang ? this.article.lang: 'bg-BG'
       },
       title: this.article.title,
+      script: [{ type: 'application/ld+json', json: this.structuredData }],
       meta: [
 
         ...this.meta,
@@ -117,20 +118,40 @@ export default {
         { network: 'pinterest', icon: 'pinterest', color: '#bd081c' },
         { network: 'telegram', icon: 'telegram', color: '#0088cc' },
         { network: 'whatsapp', icon: 'whatsapp', color: '#25d366' },
-      ]
+      ],
     }
   },
   computed: {
     meta() {
       const metaData = {
-        type: "article",
+        type: "WebPage",
         title: this.article.title,
         description: this.article.description,
         url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
         mainImage: this.article.img,
       };
       return getSiteMeta(metaData);
-    }
+    },
+
+    structuredData() {
+      const strData = { 
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage":{
+          "@type":"WebPage",
+          "@id": `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
+        },
+        "name": this.article.title,
+        "description": this.article.description,
+        "author" : {
+          "@type" : "Person",
+          "name" : "mspase"
+        },
+        "image" : this.article.img,
+        "datePublished" : this.article.updatedAt,
+      }
+      return strData
+    },
   },
   async asyncData({ $content, $config, route, params }) {
       const article = await $content("articles", params.slug).fetch();

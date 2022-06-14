@@ -1,5 +1,5 @@
 ---
-title: From - сериал на Epix
+title: From - сериал на Epix 2022
 description: From - сериал на компанията EPIX разкрива мистерията на един кошмарен град в Средна Америка, който хваща в капан всички, които влизат.
 img: https://res.cloudinary.com/mayks/image/upload/c_scale,w_720/v1653657122/blog-mayks/movies/from/from-main_atkv2j.webp
 alt: Сериалът - From - мистерията на един кошмарен град в Средна Америка

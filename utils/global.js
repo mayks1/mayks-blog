@@ -6,8 +6,8 @@
 export default {
   siteUrl: 'https://mspase.com',
   siteName: 'MSpase Блог',
-  author: 'Mayks',
-  twitterHandle: '@mayks',
+  author: 'MSpase',
+  twitterHandle: '@nspase',
   twitterURL: '',
   githubURL: '',
   siteTitle: 'Блог за авторски материали, интересни новини и истории',
