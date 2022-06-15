@@ -1,6 +1,6 @@
 ---
 title: Sherwood - Сериал Базиран на истинска история, новата драма на BBC
-description: Новият трилър на BBC Sherwood проследява трагичните и неочаквани убийства в Sherwood - една разбита миньорска общност.
+description: Новият сериал - трилър на BBC, Sherwood, проследява трагичните и неочаквани убийства в Sherwood - една разбита миньорска общност.
 img: https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0002_jjdrkp.webp
 alt: Постер на сериала Sherwood
 imdb: https://www.imdb.com/title/tt13994572/
