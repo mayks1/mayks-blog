@@ -18,4 +18,5 @@ export default {
   mainImage:
     'https://res.cloudinary.com/mayks/image/upload/v1654708617/blog-mayks/logo/logo_yibtdk.png',
   siteType: 'website',
+  twitterImage: '/icon.png',
 }
