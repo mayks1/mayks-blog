@@ -18,4 +18,6 @@ export default {
   mainImage:
     'https://res.cloudinary.com/mayks/image/upload/v1654708617/blog-mayks/logo/logo_yibtdk.png',
   siteType: 'website',
+  twitterImage:
+    'https://res.cloudinary.com/mayks/image/upload/v1655305395/blog-mayks/logo/mspase.logo.twitter_bvybm8.png',
 }

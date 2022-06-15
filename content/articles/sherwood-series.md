@@ -80,7 +80,9 @@ Sherwood се основава на истинска история за съб�
 * Joanne Froggatt as Sarah
 * Stephen Tompkinson as Warnock
 
-
 <br>
 
-[Машинни български субтитри за сериала Sherwood (2022)](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E01.1080p.HDTV.H264-ORGANiC.zip)
+## Машинни български субтитри за сериала Sherwood (2022)  
+
+[S01E01](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E01.1080p.HDTV.H264-ORGANiC.zip)
+[S01E02](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E01.1080p.HDTV.H264-ORGANiC.zip)

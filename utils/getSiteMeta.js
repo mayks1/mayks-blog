@@ -65,7 +65,7 @@ export default (meta) => {
     {
       hid: 'twitter:image',
       name: 'twitter:image',
-      content: (meta && meta.mainImage) || global.mainImage,
+      content: (meta && meta.mainImage) || global.twitterImage,
     },
   ]
 };
