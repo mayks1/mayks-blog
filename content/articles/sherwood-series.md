@@ -84,5 +84,6 @@ Sherwood се основава на истинска история за съб�
 
 ## Машинни български субтитри за сериала Sherwood (2022)  
 
-[S01E01](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E01.1080p.HDTV.H264-ORGANiC.zip)
-[S01E02](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E01.1080p.HDTV.H264-ORGANiC.zip)
+[S01E01](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E01.1080p.HDTV.H264-ORGANiC.zip)  
+
+[S01E02](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E02.1080p.HDTV.H264-ORGANiC.zip)

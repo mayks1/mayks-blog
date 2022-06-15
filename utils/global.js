@@ -7,7 +7,7 @@ export default {
   siteUrl: 'https://mspase.com',
   siteName: 'MSpase Блог',
   author: 'MSpase',
-  twitterHandle: '@nspase',
+  twitterHandle: '@mspase',
   twitterURL: '',
   githubURL: '',
   siteTitle: 'Блог за авторски материали, интересни новини и истории',
