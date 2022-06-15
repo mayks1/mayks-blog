@@ -30,7 +30,7 @@ export default (meta) => {
     {
       hid: 'og:image',
       property: 'og:image',
-      content: (meta && meta.mainImage) || global.twitterImage,
+      content: (meta && meta.mainImage) || global.mainImage,
     },
     {
       hid: 'twitter:card',
@@ -65,7 +65,7 @@ export default (meta) => {
     {
       hid: 'twitter:image',
       name: 'twitter:image',
-      content: (meta && meta.mainImage) || global.twitterImage,
+      content: (meta && meta.mainImage) || global.mainImage,
     },
   ]
 };
