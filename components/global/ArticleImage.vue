@@ -16,7 +16,6 @@ export default {
         thumb:
         {
             type: String,
-            required: true
         },
         src: {
             type: String,

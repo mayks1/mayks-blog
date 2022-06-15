@@ -38,18 +38,22 @@ Sherwood се основава на истинска история за съб�
 -   [Lesley Manville](https://www.imdb.com/name/nm0544334)
 
 <article-image 
+  thumb="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0007_o1wslg.webp"
   src="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0007_o1wslg.webp"
   alt="Сериалът Sherwood (2022)"
 /></article-image>
 <article-image 
+  thumb="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0005_xzusxi.webp"
   src="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0005_xzusxi.webp"
   alt="Сериалът Sherwood (2022)"
 /></article-image>
 <article-image 
+  thumb="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0011_yzgkdl.webp"
   src="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0011_yzgkdl.webp"
   alt="Сериалът Sherwood (2022)"
 /></article-image>
 <article-image 
+  thumb="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0010_u3z8m4.webp"
   src="https://res.cloudinary.com/mayks/image/upload/v1655239433/blog-mayks/movies/sherwood/mpv-shot0010_u3z8m4.webp"
   alt="Сериалът Sherwood (2022)"
 /></article-image>
