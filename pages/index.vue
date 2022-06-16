@@ -1,6 +1,4 @@
 <template>
-
-    <!-- <svg-icon name="share" /> -->
   <article class="box">
     <h1 style="text-align: center; margin-bottom: 1rem;">
       Последни Новини и Публикации
@@ -11,29 +9,28 @@
       </li>
     </ul>
   </article>
-    
 </template>
 
 <script>
-
-  export default {
-    head() {
+export default {
+  name: 'HomePage',
+  head() {
+    return {
+        htmlAttrs: {
+          lang: 'bg-BG'
+        },
+    }
+  }, 
+  async asyncData({ $content}) {
+      const articles = await $content("articles")
+          .only(["title", "description", "img", "alt", "slug", "categories", "date", "number"])
+          .where({ status: 'publish' })
+          .sortBy("number", "desc")
+          .fetch();
       return {
-          htmlAttrs: {
-            lang: 'bg-BG'
-          },
+          articles
       }
-    }, 
-    async asyncData({ $content, params }) {
-        const articles = await $content("articles")
-            .only(["title", "description", "img", "alt", "slug", "categories", "date", "number"])
-            .where({ status: 'publish' })
-            .sortBy("number", "desc")
-            .fetch();
-        return {
-            articles
-        };
-    },
+  },
 }
 </script>
 
