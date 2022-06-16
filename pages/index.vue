@@ -19,7 +19,15 @@ export default {
         htmlAttrs: {
           lang: 'bg-BG'
         },
-        
+        // script: [
+        //   {
+        //     hid: 'adsense',
+        //     src: "<https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8365005414967197>",
+        //     defer: true,
+        //     async: true,
+        //     crossorigin: "anonymous"
+        //   },
+        // ],
     }
   }, 
   async asyncData({ $content}) {

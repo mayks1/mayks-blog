@@ -26,14 +26,15 @@
 export default {
   head() {
     return {
-        scripts: [
-          { hid: 'adsense',
-            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8365005414967197',
+        script: [
+          {
+            hid: 'adsense',
+            src: "<https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8365005414967197>",
+            defer: true,
             async: true,
-            crossorigin: 'anonymous'
+            crossorigin: "anonymous"
           },
-          // { hid: 'adsense', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': 'ca-pub-8365005414967197' },
-        ]
+        ],
       }
   },  
 
