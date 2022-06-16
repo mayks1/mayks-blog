@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="">
     <ins class="adsbygoogle"
-            style="display:block"
+            style="display:block; width: 100%;"
             data-ad-client="ca-pub-8365005414967197"
             data-ad-slot="9121674298"
             data-ad-format="auto"
