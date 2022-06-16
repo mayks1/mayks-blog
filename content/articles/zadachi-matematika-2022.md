@@ -23,9 +23,10 @@ status: publish
 ## Свалете задачите и отговорите на изпита по математика 2022г.
 
 
-[Задачи за 7 клас](http://mayks.bg.cm/matematika-2022/mat-2022-7.pdf)  
+### [Свали задачи и отговори -  7 клас <<<](http://mayks.bg.cm/matematika-2022/mat-7-2022.zip)
 
-[Задачи за 10 клас](http://mayks.bg.cm/matematika-2022/mat-2022-10.pdf)
+
+### [Свали задачи и отговори - 10 клас <<<](http://mayks.bg.cm/matematika-2022/mat-10-2022.zip)
 
 
 
