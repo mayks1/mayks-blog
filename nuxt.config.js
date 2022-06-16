@@ -145,11 +145,7 @@ export default {
   ],
   // GOOGLE ADSENS OPTIONS
   'google-adsense': {
-    id: process.env.GOOGLE_ADSENSE_ID,
-  },
-  'google-adsense': {
-    onPageLoad: true,
-    pageLevelAds: false,
+    id: 'ca-pub-8365005414967197',
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
