@@ -1,17 +1,24 @@
 <template>
   <div>
-    <template v-if="isDev">
+    <!-- <template v-if="isDev">
       [ADSENSE PLACEHOLDER]
     </template>
     <template v-else>
-      <!-- aside-ads-card -->
+     
         <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8365005414967197"
             data-ad-slot="9121674298"
             data-ad-format="auto"
             data-full-width-responsive="true"></ins>
-    </template>
+    </template> -->
+    <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-8365005414967197"
+            data-ad-slot="9121674298"
+            data-ad-format="auto"
+            data-full-width-responsive="true">
+    </ins>
   </div>
 </template>
 
