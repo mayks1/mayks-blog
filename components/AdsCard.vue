@@ -11,12 +11,14 @@
             data-full-width="">
             <div overflow=""></div>
         </amp-ad> -->
-        <adsbygoogle />
+        <!-- <adsbygoogle /> -->
+        <Ad />
     </section>
 </template>
 
 <script>
 export default {
+  
     
 }
 </script>

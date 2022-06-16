@@ -19,6 +19,7 @@ export default {
         htmlAttrs: {
           lang: 'bg-BG'
         },
+        
     }
   }, 
   async asyncData({ $content}) {
