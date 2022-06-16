@@ -132,6 +132,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/google-adsense',
     '@nuxt/content',
     // A Nuxt.js module thats inject a middleware to generate a robots.txt
     '@nuxtjs/robots',
@@ -142,6 +143,12 @@ export default {
     // Social Sharing Buttons to NuxtJS: https://www.zemna.net/articles/how-to-add-social-sharing-buttons-to-nuxtjs/
     'vue-social-sharing/nuxt',
   ],
+  // GOOGLE ADSENS OPTIONS
+  'google-adsense': {
+    onPageLoad: false,
+    pageLevelAds: false,
+    element: 'amp-ad',
+  },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     markdown: {
@@ -204,6 +211,11 @@ export default {
 
   publicRuntimeConfig: {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+
+    'google-adsense': {
+      id: process.env.GOOGLE_ADSENSE_ID,
+      test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'true',
+    },
   },
 
   generate: {

@@ -1897,6 +1897,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxtjs/google-adsense@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@nuxtjs/google-adsense@npm:2.0.0"
+  dependencies:
+    pathe: ^0.2.0
+  checksum: 2e44347ae2bd7436ba04dbba1c1694b63614e103506c3b84c69ebd38471a9edaf1de0bc961e7af9e533899b16d2c2d129635c48f19a18225807bc1179b2f706d
+  languageName: node
+  linkType: hard
+
 "@nuxtjs/pwa@npm:^3.3.5":
   version: 3.3.5
   resolution: "@nuxtjs/pwa@npm:3.3.5"
@@ -8220,6 +8229,7 @@ __metadata:
     "@norvikit/vue-cookies-consent": ^1.0.11
     "@nuxt/content": ^1.15.1
     "@nuxtjs/feed": ^2.0.0
+    "@nuxtjs/google-adsense": ^2.0.0
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/robots": ^2.5.0
     "@nuxtjs/sitemap": ^2.4.0
@@ -9038,6 +9048,13 @@ __metadata:
   version: 4.0.0
   resolution: "path-type@npm:4.0.0"
   checksum: 5b1e2daa247062061325b8fdbfd1fb56dde0a448fb1455453276ea18c60685bdad23a445dc148cf87bc216be1573357509b7d4060494a6fd768c7efad833ee45
+  languageName: node
+  linkType: hard
+
+"pathe@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "pathe@npm:0.2.0"
+  checksum: 9a8149ce152088f30d15b0b03a7c128ba21f16b4dc1f3f90fe38eee9f6d0f1d6da8e4e47bd2a4f9e14aaac7c30ed01cfc86216479011de2bdc598b65e6f19f41
   languageName: node
   linkType: hard
 
