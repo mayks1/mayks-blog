@@ -148,7 +148,7 @@ export default {
     id: process.env.GOOGLE_ADSENSE_ID,
   },
   'google-adsense': {
-    onPageLoad: false,
+    onPageLoad: true,
     pageLevelAds: false,
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content
