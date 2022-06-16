@@ -132,7 +132,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/google-adsense',
+    // '@nuxtjs/google-adsense',
     '@nuxt/content',
     // A Nuxt.js module thats inject a middleware to generate a robots.txt
     '@nuxtjs/robots',
@@ -144,9 +144,9 @@ export default {
     'vue-social-sharing/nuxt',
   ],
   // GOOGLE ADSENS OPTIONS
-  'google-adsense': {
-    id: 'ca-pub-8365005414967197',
-  },
+  // 'google-adsense': {
+  //   id: 'ca-pub-8365005414967197',
+  // },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     markdown: {
