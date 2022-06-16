@@ -1,7 +1,8 @@
 <template>
     <section class="aside-card">
-        <h4 class="aside-card-title line-after">Реклама</h4>
-       <img src="https://res.cloudinary.com/mayks/image/upload/v1653666978/blog-mayks/banners/adds/ad-banner_yxukna.jpg" alt="Ads Picture">
+        <h4 class="aside-card-title line-after">Снимка на деня</h4>
+       <img src="https://source.unsplash.com/random/450×800/?woman-portrait" alt="Usplash Photo of day">
+       <!-- <img src="https://res.cloudinary.com/mayks/image/upload/v1653666978/blog-mayks/banners/adds/ad-banner_yxukna.jpg" alt="Ads Picture"> -->
        <!-- <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8365005414967197"
@@ -10,5 +11,6 @@
             data-full-width-responsive="true">
         </ins> -->
         <!-- <Ad /> -->
+    
     </section>
 </template>
