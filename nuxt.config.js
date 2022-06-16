@@ -213,11 +213,6 @@ export default {
 
   publicRuntimeConfig: {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
-
-    'google-adsense': {
-      id: process.env.GOOGLE_ADSENSE_ID,
-      test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'true',
-    },
   },
 
   generate: {
