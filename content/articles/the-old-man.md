@@ -99,7 +99,7 @@ status: publish
 
 <br>
 
-## Машинни български субтитри за сериала Sherwood (2022)  
+## Машинни български субтитри за сериала The Old Man (2022)  
 
 [S01E01](http://mayks.bg.cm/subtitles/the-old-man/the.old.man.s01e01.1080p.web.h264-plzproper.zip)  
 
