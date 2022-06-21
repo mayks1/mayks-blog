@@ -86,4 +86,6 @@ Sherwood се основава на истинска история за съб�
 
 [S01E01](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E01.1080p.HDTV.H264-ORGANiC.zip)  
 
-[S01E02](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E02.1080p.HDTV.H264-ORGANiC.zip)
+[S01E02](http://mayks.bg.cm/subtitles/sherwood/Sherwood.S01E02.1080p.HDTV.H264-ORGANiC.zip)  
+
+[S01E03](http://mayks.bg.cm/subtitles/sherwood/Sherwood.2022.S01E03.1080p.HDTV.H264-ORGANiC.zip)
