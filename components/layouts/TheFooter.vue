@@ -61,7 +61,7 @@
       <div class="logo">
         <logo />
       </div>
-      <p class="small text-muted text-center">© 2022 MSPASE Blog. All rights reserved.</p>
+      <p class="small text-muted text-center">© 2021 - 2023 MSPASE Blog. All rights reserved.</p>
     </div>
   </footer>
 
